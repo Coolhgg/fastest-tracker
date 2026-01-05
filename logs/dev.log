@@ -1,0 +1,52 @@
+   ▲ Next.js 15.3.6
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Compiled /instrumentation in 101ms (20 modules)
+Instrumentation registered
+ ✓ Ready in 1321ms
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 563ms (180 modules)
+Instrumentation registered
+ ○ Compiling / ...
+ ✓ Compiled / in 5.5s (1873 modules)
+ GET / 200 in 6043ms
+ ✓ Compiled in 614ms (807 modules)
+ ✓ Compiled in 227ms (807 modules)
+ ✓ Compiled in 221ms (807 modules)
+ ✓ Compiled in 211ms (807 modules)
+ ✓ Compiled in 236ms (807 modules)
+ ✓ Compiled in 220ms (807 modules)
+ ✓ Compiled in 210ms (807 modules)
+ ✓ Compiled in 219ms (807 modules)
+ ✓ Compiled in 257ms (807 modules)
+ ✓ Compiled in 214ms (807 modules)
+ ✓ Compiled in 208ms (807 modules)
+ ✓ Compiled in 207ms (807 modules)
+ ✓ Compiled in 205ms (807 modules)
+ ✓ Compiled in 205ms (807 modules)
+ ✓ Compiled in 202ms (807 modules)
+ ✓ Compiled in 223ms (807 modules)
+ ✓ Compiled in 208ms (807 modules)
+ ✓ Compiled in 205ms (807 modules)
+ ✓ Compiled in 237ms (807 modules)
+ ✓ Compiled in 215ms (807 modules)
+ ✓ Compiled in 213ms (807 modules)
+ ✓ Compiled in 212ms (807 modules)
+ ✓ Compiled in 204ms (807 modules)
+ ✓ Compiled in 212ms (807 modules)
+ ✓ Compiled in 211ms (807 modules)
+ ✓ Compiled in 235ms (807 modules)
+ GET / 200 in 255ms
+ ✓ Compiled in 249ms (807 modules)
+ ✓ Compiled in 227ms (807 modules)
+ ✓ Compiled in 223ms (807 modules)
+ ✓ Compiled in 235ms (807 modules)
+ ✓ Compiled in 217ms (807 modules)
+ ✓ Compiled in 223ms (807 modules)
+ ✓ Compiled in 215ms (807 modules)
+ ✓ Compiled in 224ms (807 modules)
+ ✓ Compiled in 224ms (807 modules)
+ ✓ Compiled in 230ms (807 modules)

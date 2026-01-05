@@ -1,0 +1,539 @@
+[Workers] Starting...
+[Scheduler] Running master scheduler...
+[Workers] Started
+[Workers] Active and listening for jobs
+[Redis] Connection initialized
+[Workers] Connected to Redis at redis://****:****@redis-12292.c98.us-east-1-4.ec2.cloud.redislabs.com:12292
+[Redis] Ready to accept commands
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Initial heartbeat sent
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+[Scheduler] Queuing 9 sources for sync.
+[SyncSource] Job sync-38a154f3-eaa0-4544-acc3-5542a2d8e82f-1767258337700 started processing
+[SyncSource] Job sync-691174ac-2cab-46dd-87ac-79c9312db283-1767258337700 started processing
+[SyncSource] Job sync-7c697ba3-ad0f-46c6-95d1-246f31cd8ade-1767258337700 started processing
+[SyncSource] Job sync-d3422b2e-c056-4f9d-af20-ba6702542544-1767258337700 started processing
+[Scheduler] Queued 9 jobs, updated next_check_at
+[MangaDex] Fetching sourceId: e9a7e130-120d-43d3-8f07-38bce180e8f3
+[MangaDex] Fetching sourceId: 2fb6066b-b7a3-4152-9815-779dba2de342
+[MangaDex] Fetching sourceId: 638d87fd-3925-40d6-9de8-f8ca84527b5e
+[MangaDex] Fetching sourceId: 98f43f70-07b2-4345-8db0-c3de0517ef36
+[Worker] Found 2 new chapters for Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu (mangadex)
+[SyncSource] Job sync-38a154f3-eaa0-4544-acc3-5542a2d8e82f-1767258337700 completed
+[Worker] Found 2 new chapters for The World of Moral Reversal (mangadex)
+[Worker] Found 2 new chapters for Kono Subarashii Sekai ni Shukufuku wo! - Kono Subarashii Sekai ni Teisou o!! (Doujinshi) (mangadex)
+[SyncSource] Job sync-7c697ba3-ad0f-46c6-95d1-246f31cd8ade-1767258337700 completed
+[SyncSource] Job sync-691174ac-2cab-46dd-87ac-79c9312db283-1767258337700 completed
+[Worker] Found 2 new chapters for The World of Moral Reversal (Fan Colored) (mangadex)
+[SyncSource] Job sync-d3422b2e-c056-4f9d-af20-ba6702542544-1767258337700 completed
+[Notification] No subscribers for The World of Moral Reversal
+[Notification] Job notify-b7d7f464-219b-45e5-ae73-fc71f884ddc5-1767258339541 completed
+[Notification] No subscribers for Kono Subarashii Sekai ni Shukufuku wo! - Kono Subarashii Sekai ni Teisou o!! (Doujinshi)
+[Notification] Job notify-daecc2a4-f2d0-434f-bde6-87efbfba5069-1767258339543 completed
+[Notification] No subscribers for Akuyaku Reijou Taisen ~Teihen Kizoku no Ore wa Teisou Kannen Gyakuten Sekai de Gekokujou suru~
+[Notification] Job notify-66b398bb-6f91-467e-8945-20eb89b47c11-1767258339398 completed
+[Notification] No subscribers for Teisou Kannen ZERO
+[Notification] No subscribers for My Friend with Zero Chastity
+[Notification] Job notify-2d289c54-8617-4475-a692-4f3209ab133c-1767258339411 completed
+[Notification] Job notify-ff0bde54-d8e9-4099-8846-9f9b2d8bca30-1767258339412 completed
+[CheckSource] Job search_dGVpc291 started processing
+[CheckSource] Job search_dGVpc291 started processing
+[CheckSource] Job search_dGVpc291 searching for "teisou" (Trigger: user_search, Intent: PARTIAL_TITLE)
+[CheckSource] Job search_dGVpc291 failed: normalize is not defined
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Canonicalize] Job canon_mangadex_ada9b579-db02-49e1-b5cb-4d77f13bc17e started processing
+[Canonicalize] Job canon_mangadex_ada9b579-db02-49e1-b5cb-4d77f13bc17e started processing: mangadex:ada9b579-db02-49e1-b5cb-4d77f13bc17e - "Teisou Kannen ZERO"
+[Canonicalize] Job canon_mangadex_f6333441-3ee5-4ac9-a238-19ca5afe79af started processing
+[Canonicalize] Job canon_mangadex_f6333441-3ee5-4ac9-a238-19ca5afe79af started processing: mangadex:f6333441-3ee5-4ac9-a238-19ca5afe79af - "Teisou Gyakuten Sekai"
+[Canonicalize] Job canon_mangadex_7e72e1ab-9979-4d39-a141-0c15fb03c42b started processing
+[Canonicalize] Job canon_mangadex_7e72e1ab-9979-4d39-a141-0c15fb03c42b started processing: mangadex:7e72e1ab-9979-4d39-a141-0c15fb03c42b - "Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan!"
+[Canonicalize] Job canon_mangadex_c1d6d092-811d-49d2-b143-0d12bc3fd9dd started processing
+[Canonicalize] Job canon_mangadex_c1d6d092-811d-49d2-b143-0d12bc3fd9dd started processing: mangadex:c1d6d092-811d-49d2-b143-0d12bc3fd9dd - "Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou"
+[Canonicalize] Job canon_mangadex_e264447e-2aa3-4467-980f-5a64c18f7087 started processing
+[Canonicalize] Job canon_mangadex_e264447e-2aa3-4467-980f-5a64c18f7087 started processing: mangadex:e264447e-2aa3-4467-980f-5a64c18f7087 - "Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore"
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Sekai (ID: 111278f2-c853-455a-ba2a-539279067205)
+[Canonicalize] Matched by mangadex_id: Teisou Kannen ZERO (ID: 2d289c54-8617-4475-a692-4f3209ab133c)
+[Canonicalize] Matched by mangadex_id: Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan! (ID: 2c7ec2bc-e7f5-4e27-a287-347b63ef8d46)
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou (ID: ac5e788c-61c0-4829-b065-57c6e91cf63a)
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore (ID: 5ef5a94c-d6c1-4ed5-a68c-d65a6f3fbbdd)
+[Canonicalize] Updated existing series: Teisou Gyakuten Sekai
+[Canonicalize] Updated existing series: Teisou Kannen ZERO
+[Canonicalize] Updated existing series: Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan!
+[Canonicalize] Updated existing series: Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou
+[Canonicalize] Updated existing series: Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore
+[Canonicalize] Job canon_mangadex_f6333441-3ee5-4ac9-a238-19ca5afe79af completed for "Teisou Gyakuten Sekai" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Sekai"
+[Canonicalize] Job canon_mangadex_ada9b579-db02-49e1-b5cb-4d77f13bc17e completed for "Teisou Kannen ZERO" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Kannen ZERO"
+[Canonicalize] Job canon_mangadex_7e72e1ab-9979-4d39-a141-0c15fb03c42b completed for "Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan!" (created: false)
+[Canonicalize] Emitting series.available event for "Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan!"
+[Canonicalize] Job canon_mangadex_e264447e-2aa3-4467-980f-5a64c18f7087 completed for "Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore"
+[Canonicalize] Job canon_mangadex_c1d6d092-811d-49d2-b143-0d12bc3fd9dd completed for "Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_ada9b579-db02-49e1-b5cb-4d77f13bc17e completed
+[Canonicalize] Job canon_mangadex_00aef9e2-5492-4cc0-91fc-52615375e628 started processing
+[Canonicalize] Job canon_mangadex_00aef9e2-5492-4cc0-91fc-52615375e628 started processing: mangadex:00aef9e2-5492-4cc0-91fc-52615375e628 - "Kidnapped and Raped in a World Where Girls Are the Creeps"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_7e72e1ab-9979-4d39-a141-0c15fb03c42b completed
+[Canonicalize] Job canon_mangadex_e34396ba-4af4-4c53-b030-195fb3b72aa9 started processing
+[Canonicalize] Job canon_mangadex_e34396ba-4af4-4c53-b030-195fb3b72aa9 started processing: mangadex:e34396ba-4af4-4c53-b030-195fb3b72aa9 - "Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_f6333441-3ee5-4ac9-a238-19ca5afe79af completed
+[Canonicalize] Job canon_mangadex_e9a7e130-120d-43d3-8f07-38bce180e8f3 started processing
+[Canonicalize] Job canon_mangadex_e9a7e130-120d-43d3-8f07-38bce180e8f3 started processing: mangadex:e9a7e130-120d-43d3-8f07-38bce180e8f3 - "Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_e264447e-2aa3-4467-980f-5a64c18f7087 completed
+[Canonicalize] Job canon_mangadex_0bc9b82f-abd3-4aec-8371-3179b332bef1 started processing
+[Canonicalize] Job canon_mangadex_0bc9b82f-abd3-4aec-8371-3179b332bef1 started processing: mangadex:0bc9b82f-abd3-4aec-8371-3179b332bef1 - ""SISSY A LA CARTE""
+[Canonicalize] Job canon_mangadex_c1d6d092-811d-49d2-b143-0d12bc3fd9dd completed
+[Canonicalize] Job canon_mangadex_6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 started processing
+[Canonicalize] Job canon_mangadex_6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 started processing: mangadex:6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 - "Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~"
+[Canonicalize] Matched by mangadex_id: Kidnapped and Raped in a World Where Girls Are the Creeps (ID: 1ad6c62b-8bdf-4926-a3bc-6dbebc697cb6)
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga (ID: df3e8740-dde3-4fb4-8828-36f9d2abddc5)
+[Canonicalize] Matched by mangadex_id: Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu (ID: 9361ad7b-8f49-40a1-8dfa-4e2e3578b5db)
+[Canonicalize] Updated existing series: Kidnapped and Raped in a World Where Girls Are the Creeps
+[Canonicalize] Matched by mangadex_id: "SISSY A LA CARTE" (ID: f54d319c-6b8f-4996-8098-ba449c95e743)
+[Canonicalize] Matched by mangadex_id: Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~ (ID: f52db542-d916-441e-8a0c-1f0071bcdcc6)
+[Canonicalize] Updated existing series: Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga
+[Canonicalize] Updated existing series: Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu
+[Canonicalize] Updated existing series: Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~
+[Canonicalize] Updated existing series: "SISSY A LA CARTE"
+[Canonicalize] Job canon_mangadex_00aef9e2-5492-4cc0-91fc-52615375e628 completed for "Kidnapped and Raped in a World Where Girls Are the Creeps" (created: false)
+[Canonicalize] Emitting series.available event for "Kidnapped and Raped in a World Where Girls Are the Creeps"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_e34396ba-4af4-4c53-b030-195fb3b72aa9 completed for "Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga"
+[Canonicalize] Job canon_mangadex_00aef9e2-5492-4cc0-91fc-52615375e628 completed
+[Canonicalize] Job canon_mangadex_e9a7e130-120d-43d3-8f07-38bce180e8f3 completed for "Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu"
+[Canonicalize] Job canon_mangadex_6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 completed for "Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~" (created: false)
+[Canonicalize] Emitting series.available event for "Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~"
+[Canonicalize] Job canon_mangadex_0bc9b82f-abd3-4aec-8371-3179b332bef1 completed for ""SISSY A LA CARTE"" (created: false)
+[Canonicalize] Emitting series.available event for ""SISSY A LA CARTE""
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_e34396ba-4af4-4c53-b030-195fb3b72aa9 completed
+[Canonicalize] Job canon_mangadex_e9a7e130-120d-43d3-8f07-38bce180e8f3 completed
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_0bc9b82f-abd3-4aec-8371-3179b332bef1 completed
+[Canonicalize] Job canon_mangadex_6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 completed
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[CheckSource] Job search_dGVpc291 started processing
+[CheckSource] Job search_dGVpc291 started processing
+[CheckSource] Job search_dGVpc291 searching for "teisou" (Trigger: user_search, Intent: PARTIAL_TITLE)
+[CheckSource] Job search_dGVpc291 failed: normalize is not defined
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Canonicalize] Job canon_mangadex_f6333441-3ee5-4ac9-a238-19ca5afe79af started processing
+[Canonicalize] Job canon_mangadex_f6333441-3ee5-4ac9-a238-19ca5afe79af started processing: mangadex:f6333441-3ee5-4ac9-a238-19ca5afe79af - "Teisou Gyakuten Sekai"
+[Canonicalize] Job canon_mangadex_8556c131-23ed-42d6-98ba-5f2aa5037843 started processing
+[Canonicalize] Job canon_mangadex_8556c131-23ed-42d6-98ba-5f2aa5037843 started processing: mangadex:8556c131-23ed-42d6-98ba-5f2aa5037843 - "Teisou Gyakuten Sekai Nara Moteru to Omotte Itara"
+[Canonicalize] Job canon_mangadex_7e72e1ab-9979-4d39-a141-0c15fb03c42b started processing
+[Canonicalize] Job canon_mangadex_7e72e1ab-9979-4d39-a141-0c15fb03c42b started processing: mangadex:7e72e1ab-9979-4d39-a141-0c15fb03c42b - "Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan!"
+[Canonicalize] Job canon_mangadex_c1d6d092-811d-49d2-b143-0d12bc3fd9dd started processing
+[Canonicalize] Job canon_mangadex_c1d6d092-811d-49d2-b143-0d12bc3fd9dd started processing: mangadex:c1d6d092-811d-49d2-b143-0d12bc3fd9dd - "Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou"
+[Canonicalize] Job canon_mangadex_e264447e-2aa3-4467-980f-5a64c18f7087 started processing
+[Canonicalize] Job canon_mangadex_e264447e-2aa3-4467-980f-5a64c18f7087 started processing: mangadex:e264447e-2aa3-4467-980f-5a64c18f7087 - "Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore"
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Sekai (ID: 111278f2-c853-455a-ba2a-539279067205)
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Sekai Nara Moteru to Omotte Itara (ID: 82c7dba1-28b6-4b73-b00c-03af40baf419)
+[Canonicalize] Matched by mangadex_id: Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan! (ID: 2c7ec2bc-e7f5-4e27-a287-347b63ef8d46)
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore (ID: 5ef5a94c-d6c1-4ed5-a68c-d65a6f3fbbdd)
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou (ID: ac5e788c-61c0-4829-b065-57c6e91cf63a)
+[Canonicalize] Updated existing series: Teisou Gyakuten Sekai
+[Canonicalize] Updated existing series: Teisou Gyakuten Sekai Nara Moteru to Omotte Itara
+[Canonicalize] Updated existing series: Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan!
+[Canonicalize] Updated existing series: Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore
+[Canonicalize] Updated existing series: Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou
+[Canonicalize] Job canon_mangadex_8556c131-23ed-42d6-98ba-5f2aa5037843 completed for "Teisou Gyakuten Sekai Nara Moteru to Omotte Itara" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Sekai Nara Moteru to Omotte Itara"
+[Canonicalize] Job canon_mangadex_7e72e1ab-9979-4d39-a141-0c15fb03c42b completed for "Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan!" (created: false)
+[Canonicalize] Emitting series.available event for "Ane Kui Yuusha to Teisou Gyakuten Teikoku no Onee-chan!"
+[Canonicalize] Job canon_mangadex_f6333441-3ee5-4ac9-a238-19ca5afe79af completed for "Teisou Gyakuten Sekai" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Sekai"
+[Canonicalize] Job canon_mangadex_e264447e-2aa3-4467-980f-5a64c18f7087 completed for "Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Sekai de Tanomeba Yareru to Uwasa no Ore"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_8556c131-23ed-42d6-98ba-5f2aa5037843 completed
+[Canonicalize] Job canon_mangadex_c9295a71-863f-464b-8c45-d0a1ede1ce18 started processing
+[Canonicalize] Job canon_mangadex_c9295a71-863f-464b-8c45-d0a1ede1ce18 started processing: mangadex:c9295a71-863f-464b-8c45-d0a1ede1ce18 - "Teisou Gyakuten Isekai de Sukebe na Bijo-tachi ni Kakomare nagara Boukensha Seikatsu"
+[Canonicalize] Job canon_mangadex_c1d6d092-811d-49d2-b143-0d12bc3fd9dd completed for "Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Sekai de Yuiitsu no Otoko Kishi no Ore, Onna Kishi Gakuen ni Nyuugaku Shitara Nazeka Eiyou Atsukai Sareta: Zetsurin Skill de Harem Musou"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_7e72e1ab-9979-4d39-a141-0c15fb03c42b completed
+[Canonicalize] Job canon_mangadex_e34396ba-4af4-4c53-b030-195fb3b72aa9 started processing
+[Canonicalize] Job canon_mangadex_e34396ba-4af4-4c53-b030-195fb3b72aa9 started processing: mangadex:e34396ba-4af4-4c53-b030-195fb3b72aa9 - "Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga"
+[Canonicalize] Job canon_mangadex_e264447e-2aa3-4467-980f-5a64c18f7087 completed
+[Canonicalize] Job canon_mangadex_e9a7e130-120d-43d3-8f07-38bce180e8f3 started processing
+[Canonicalize] Job canon_mangadex_e9a7e130-120d-43d3-8f07-38bce180e8f3 started processing: mangadex:e9a7e130-120d-43d3-8f07-38bce180e8f3 - "Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_f6333441-3ee5-4ac9-a238-19ca5afe79af completed
+[Canonicalize] Job canon_mangadex_6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 started processing
+[Canonicalize] Job canon_mangadex_6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 started processing: mangadex:6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 - "Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_c1d6d092-811d-49d2-b143-0d12bc3fd9dd completed
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Isekai de Sukebe na Bijo-tachi ni Kakomare nagara Boukensha Seikatsu (ID: 944b24d6-852a-47b7-8338-c11ce3920856)
+[Canonicalize] Matched by mangadex_id: Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~ (ID: f52db542-d916-441e-8a0c-1f0071bcdcc6)
+[Canonicalize] Matched by mangadex_id: Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga (ID: df3e8740-dde3-4fb4-8828-36f9d2abddc5)
+[Canonicalize] Matched by mangadex_id: Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu (ID: 9361ad7b-8f49-40a1-8dfa-4e2e3578b5db)
+[Canonicalize] Updated existing series: Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~
+[Canonicalize] Updated existing series: Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu
+[Canonicalize] Updated existing series: Teisou Gyakuten Isekai de Sukebe na Bijo-tachi ni Kakomare nagara Boukensha Seikatsu
+[Canonicalize] Updated existing series: Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga
+[Canonicalize] Job canon_mangadex_6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 completed for "Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~" (created: false)
+[Canonicalize] Emitting series.available event for "Bishuu Gyakuten Sekai no Cleric ~Bishuu to Teisoukannen ga Gyakutenshita Isekai de Souryo ni Narimashita. Inyoku no Noroi wo Toku Tame ni Harem Party de "Gishiki" Shimasu~"
+[Canonicalize] Job canon_mangadex_e9a7e130-120d-43d3-8f07-38bce180e8f3 completed for "Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Kannen Teppekisha ga TL Shousetsu wo Hometekuremasu"
+[Canonicalize] Job canon_mangadex_c9295a71-863f-464b-8c45-d0a1ede1ce18 completed for "Teisou Gyakuten Isekai de Sukebe na Bijo-tachi ni Kakomare nagara Boukensha Seikatsu" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Isekai de Sukebe na Bijo-tachi ni Kakomare nagara Boukensha Seikatsu"
+[Canonicalize] Job canon_mangadex_e34396ba-4af4-4c53-b030-195fb3b72aa9 completed for "Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga" (created: false)
+[Canonicalize] Emitting series.available event for "Teisou Gyakuten Toshi Damasarete Nyuukai Shita YariCir Shuudan no Leader ga Dou Mitemo Hatsukoi no Onee-san nano daga"
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_6ba9c63e-fc51-44c3-8d7d-a4c0d1bf1924 completed
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_e34396ba-4af4-4c53-b030-195fb3b72aa9 completed
+[Canonicalize] series.available event emitted successfully
+[Canonicalize] Job canon_mangadex_c9295a71-863f-464b-8c45-d0a1ede1ce18 completed
+[Canonicalize] Job canon_mangadex_e9a7e130-120d-43d3-8f07-38bce180e8f3 completed
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Scheduler] Running master scheduler...
+[Scheduler] No sources due for sync.
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent
+[Workers] Heartbeat updated
+[Workers] Heartbeat sent
+[Workers] Heartbeat sent

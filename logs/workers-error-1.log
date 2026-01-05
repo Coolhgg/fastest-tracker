@@ -1,0 +1,414 @@
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+2026-01-03 19:54:41: sh: 1: tsx: not found
+2026-01-03 19:54:57: sh: 1: tsx: not found
+2026-01-03 19:55:12: sh: 1: tsx: not found
+2026-01-03 19:55:27: sh: 1: tsx: not found
+2026-01-03 19:55:42: sh: 1: tsx: not found
+2026-01-03 19:55:57: sh: 1: tsx: not found
+2026-01-03 19:55:58: sh: 1: tsx: not found
+2026-01-03 19:56:00: sh: 1: tsx: not found
+2026-01-03 19:56:03: sh: 1: 
+2026-01-03 19:56:03: tsx: not found
+2026-01-03 19:56:06: sh: 1: tsx: not found
+2026-01-03 19:56:11: sh: 1: tsx: not found
+2026-01-03 19:56:19: sh: 1: tsx: not found
+2026-01-03 19:56:31: sh: 1: tsx: not found
+2026-01-03 19:56:46: sh: 1: tsx: not found
+2026-01-03 19:57:01: sh: 1: tsx: not found
+2026-01-03 19:57:16: sh: 1: tsx: not found
+2026-01-03 19:57:31: sh: 1: tsx: not found
+2026-01-03 19:57:46: sh: 1: tsx: not found
+2026-01-03 19:58:02: sh: 1: tsx: not found
+2026-01-03 19:58:17: sh: 1: tsx: not found
+2026-01-03 19:58:32: sh: 1: tsx: not found
+2026-01-03 19:58:47: sh: 1: tsx: not found
+2026-01-03 19:59:02: sh: 1: tsx: not found
+2026-01-03 19:59:17: sh: 1: tsx: not found
+2026-01-03 19:59:32: sh: 1: tsx: not found
+2026-01-03 19:59:48: sh: 1: tsx: not found
+2026-01-03 20:00:03: sh: 1: tsx: not found
+2026-01-03 20:00:18: sh: 1: tsx: not found
+2026-01-03 20:00:33: sh: 1: tsx: not found
+2026-01-03 20:00:48: sh: 1: tsx: not found
+2026-01-03 20:01:03: sh: 1: tsx: not found
+2026-01-03 20:01:19: sh: 1: tsx: not found
+2026-01-03 20:01:34: sh: 1: tsx: not found
+2026-01-03 20:01:49: sh: 1: tsx: not found
+2026-01-03 20:02:04: sh: 1: tsx: not found
+2026-01-03 20:02:19: sh: 1: tsx: not found
+2026-01-03 20:02:20: sh: 1: tsx: not found
+2026-01-03 20:02:21: sh: 1: tsx: not found
+2026-01-03 20:02:23: sh: 1: tsx: not found
+2026-01-03 20:02:25: sh: 1: tsx: not found
+2026-01-03 20:02:29: sh: 1: tsx: not found
+2026-01-03 20:02:34: sh: 1: tsx: not found
+2026-01-03 20:02:42: sh: 1: tsx: not found
+2026-01-03 20:02:54: npm warn exec The following package was not found and will be installed: tsx@4.21.0
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:02:56: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:03:07: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+=======
+2026-01-03 19:45:50: sh: 1: tsx: not found
+>>>>>>> Stashed changes
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:06:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+=======
+2026-01-03 19:45:50: sh: 1: tsx: not found
+>>>>>>> Stashed changes
+=======
+2026-01-03 19:45:50: sh: 1: tsx: not found
+>>>>>>> Stashed changes
+=======
+2026-01-03 19:45:50: sh: 1: tsx: not found
+>>>>>>> Stashed changes
+=======
+2026-01-03 19:45:50: sh: 1: tsx: not found
+>>>>>>> Stashed changes
+=======
+2026-01-03 19:45:50: sh: 1: tsx: not found
+>>>>>>> Stashed changes
+=======
+2026-01-03 19:45:50: sh: 1: tsx: not found
+>>>>>>> Stashed changes
+2026-01-03 20:47:08: npm warn exec The following package was not found and will be installed: tsx@4.21.0
+2026-01-03 20:47:12: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:12:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:12:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:12:   command: {
+2026-01-03 20:47:12:     name: 'auth',
+2026-01-03 20:47:12:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:12:   }
+2026-01-03 20:47:12: }
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: IMPORTANT! Eviction policy is volatile-lru. It should be "noeviction"
+2026-01-03 20:47:12: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:12:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:12:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:12:   command: {
+2026-01-03 20:47:12:     name: 'auth',
+2026-01-03 20:47:12:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:12:   }
+2026-01-03 20:47:12: }
+2026-01-03 20:47:12: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:12:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:12:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:12:   command: {
+2026-01-03 20:47:12:     name: 'auth',
+2026-01-03 20:47:12:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:12:   }
+2026-01-03 20:47:12: }
+2026-01-03 20:47:13: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:13:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:13:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:13:   command: {
+2026-01-03 20:47:13:     name: 'auth',
+2026-01-03 20:47:13:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:13:   }
+2026-01-03 20:47:13: }
+2026-01-03 20:47:14: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:14:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:14:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:14:   command: {
+2026-01-03 20:47:14:     name: 'auth',
+2026-01-03 20:47:14:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:14:   }
+2026-01-03 20:47:14: }
+2026-01-03 20:47:15: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:15:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:15:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:15:   command: {
+2026-01-03 20:47:15:     name: 'auth',
+2026-01-03 20:47:15:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:15:   }
+2026-01-03 20:47:15: }
+2026-01-03 20:47:16: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:16:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:16:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:16:   command: {
+2026-01-03 20:47:16:     name: 'auth',
+2026-01-03 20:47:16:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:16:   }
+2026-01-03 20:47:16: }
+2026-01-03 20:47:18: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:18:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:18:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:18:   command: {
+2026-01-03 20:47:18:     name: 'auth',
+2026-01-03 20:47:18:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:18:   }
+2026-01-03 20:47:18: }
+2026-01-03 20:47:19: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:19:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:19:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:19:   command: {
+2026-01-03 20:47:19:     name: 'auth',
+2026-01-03 20:47:19:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:19:   }
+2026-01-03 20:47:19: }
+2026-01-03 20:47:21: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:21:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:21:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:21:   command: {
+2026-01-03 20:47:21:     name: 'auth',
+2026-01-03 20:47:21:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:21:   }
+2026-01-03 20:47:21: }
+2026-01-03 20:47:23: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:23:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:23:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:23:   command: {
+2026-01-03 20:47:23:     name: 'auth',
+2026-01-03 20:47:23:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:23:   }
+2026-01-03 20:47:23: }
+2026-01-03 20:47:23: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:25: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:25:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:25:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:25:   command: {
+2026-01-03 20:47:25:     name: 'auth',
+2026-01-03 20:47:25:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:25:   }
+2026-01-03 20:47:25: }
+2026-01-03 20:47:25: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:28: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:28:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:28:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:28:   command: {
+2026-01-03 20:47:28:     name: 'auth',
+2026-01-03 20:47:28:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:28:   }
+2026-01-03 20:47:28: }
+2026-01-03 20:47:28: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:31: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:31:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:31:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:31:   command: {
+2026-01-03 20:47:31:     name: 'auth',
+2026-01-03 20:47:31:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:31:   }
+2026-01-03 20:47:31: }
+2026-01-03 20:47:31: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:33: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:33:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:33:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:33:   command: {
+2026-01-03 20:47:33:     name: 'auth',
+2026-01-03 20:47:33:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:33:   }
+2026-01-03 20:47:33: }
+2026-01-03 20:47:33: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:37: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:37:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:37:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:37:   command: {
+2026-01-03 20:47:37:     name: 'auth',
+2026-01-03 20:47:37:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:37:   }
+2026-01-03 20:47:37: }
+2026-01-03 20:47:37: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:40: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:40:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:40:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:40:   command: {
+2026-01-03 20:47:40:     name: 'auth',
+2026-01-03 20:47:40:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:40:   }
+2026-01-03 20:47:40: }
+2026-01-03 20:47:40: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:43: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:43:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:43:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:43:   command: {
+2026-01-03 20:47:43:     name: 'auth',
+2026-01-03 20:47:43:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:43:   }
+2026-01-03 20:47:43: }
+2026-01-03 20:47:43: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:47: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:47:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:47:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:47:   command: {
+2026-01-03 20:47:47:     name: 'auth',
+2026-01-03 20:47:47:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:47:   }
+2026-01-03 20:47:47: }
+2026-01-03 20:47:47: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:51: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:51:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:51:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:51:   command: {
+2026-01-03 20:47:51:     name: 'auth',
+2026-01-03 20:47:51:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:51:   }
+2026-01-03 20:47:51: }
+2026-01-03 20:47:51: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:55: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:55:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:55:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:55:   command: {
+2026-01-03 20:47:55:     name: 'auth',
+2026-01-03 20:47:55:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:55:   }
+2026-01-03 20:47:55: }
+2026-01-03 20:47:55: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:47:59: ReplyError: ERR max number of clients reached
+2026-01-03 20:47:59:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:47:59:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:47:59:   command: {
+2026-01-03 20:47:59:     name: 'auth',
+2026-01-03 20:47:59:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:47:59:   }
+2026-01-03 20:47:59: }
+2026-01-03 20:47:59: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:48:04: ReplyError: ERR max number of clients reached
+2026-01-03 20:48:04:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:48:04:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:48:04:   command: {
+2026-01-03 20:48:04:     name: 'auth',
+2026-01-03 20:48:04:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:48:04:   }
+2026-01-03 20:48:04: }
+2026-01-03 20:48:04: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:48:08: ReplyError: ERR max number of clients reached
+2026-01-03 20:48:08:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:48:08:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:48:08:   command: {
+2026-01-03 20:48:08:     name: 'auth',
+2026-01-03 20:48:08:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:48:08:   }
+2026-01-03 20:48:08: }
+2026-01-03 20:48:08: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:48:13: ReplyError: ERR max number of clients reached
+2026-01-03 20:48:13:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:48:13:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:48:13:   command: {
+2026-01-03 20:48:13:     name: 'auth',
+2026-01-03 20:48:13:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:48:13:   }
+2026-01-03 20:48:13: }
+2026-01-03 20:48:13: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:48:18: ReplyError: ERR max number of clients reached
+2026-01-03 20:48:18:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:48:18:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:48:18:   command: {
+2026-01-03 20:48:18:     name: 'auth',
+2026-01-03 20:48:18:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:48:18:   }
+2026-01-03 20:48:18: }
+2026-01-03 20:48:18: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:48:23: ReplyError: ERR max number of clients reached
+2026-01-03 20:48:23:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:48:23:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:48:23:   command: {
+2026-01-03 20:48:23:     name: 'auth',
+2026-01-03 20:48:23:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:48:23:   }
+2026-01-03 20:48:23: }
+2026-01-03 20:48:23: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:48:28: ReplyError: ERR max number of clients reached
+2026-01-03 20:48:28:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:48:28:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:48:28:   command: {
+2026-01-03 20:48:28:     name: 'auth',
+2026-01-03 20:48:28:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:48:28:   }
+2026-01-03 20:48:28: }
+2026-01-03 20:48:28: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:48:33: ReplyError: ERR max number of clients reached
+2026-01-03 20:48:33:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:48:33:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:48:33:   command: {
+2026-01-03 20:48:33:     name: 'auth',
+2026-01-03 20:48:33:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:48:33:   }
+2026-01-03 20:48:33: }
+2026-01-03 20:48:33: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:48:38: ReplyError: ERR max number of clients reached
+2026-01-03 20:48:38:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:48:38:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:48:38:   command: {
+2026-01-03 20:48:38:     name: 'auth',
+2026-01-03 20:48:38:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:48:38:   }
+2026-01-03 20:48:38: }
+2026-01-03 20:48:38: [Redis] Warning: Redis is currently unreachable. Retrying in background...
+2026-01-03 20:48:43: ReplyError: ERR max number of clients reached
+2026-01-03 20:48:43:     at parseError (/home/user/app/node_modules/redis-parser/lib/parser.js:179:12)
+2026-01-03 20:48:43:     at parseType (/home/user/app/node_modules/redis-parser/lib/parser.js:302:14) {
+2026-01-03 20:48:43:   command: {
+2026-01-03 20:48:43:     name: 'auth',
+2026-01-03 20:48:43:     args: [ 'default', 'sHWma6dZnrpZ596GP26dvhufGIzaqHyk' ]
+2026-01-03 20:48:43:   }
+2026-01-03 20:48:43: }
+2026-01-03 20:48:43: [Redis] Warning: Redis is currently unreachable. Retrying in background...

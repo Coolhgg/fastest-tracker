@@ -1,0 +1,369 @@
+2026-01-03 19:55:48:  ⨯ Failed to start server
+2026-01-03 19:55:48: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:48:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:48:     at new Promise (<anonymous>) {
+2026-01-03 19:55:48:   code: 'EADDRINUSE',
+2026-01-03 19:55:48:   errno: -98,
+2026-01-03 19:55:48:   syscall: 'listen',
+2026-01-03 19:55:48:   address: '::',
+2026-01-03 19:55:48:   port: 3000
+2026-01-03 19:55:48: }
+2026-01-03 19:55:48:  ⨯ Failed to start server
+2026-01-03 19:55:48: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:48:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:48:     at new Promise (<anonymous>) {
+2026-01-03 19:55:48:   code: 'EADDRINUSE',
+2026-01-03 19:55:48:   errno: -98,
+2026-01-03 19:55:48:   syscall: 'listen',
+2026-01-03 19:55:48:   address: '::',
+2026-01-03 19:55:48:   port: 3000
+2026-01-03 19:55:48: }
+2026-01-03 19:55:49:  ⨯ Failed to start server
+2026-01-03 19:55:49: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:49:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:49:     at new Promise (<anonymous>) {
+2026-01-03 19:55:49:   code: 'EADDRINUSE',
+2026-01-03 19:55:49:   errno: -98,
+2026-01-03 19:55:49:   syscall: 'listen',
+2026-01-03 19:55:49:   address: '::',
+2026-01-03 19:55:49:   port: 3000
+2026-01-03 19:55:49: }
+2026-01-03 19:55:49:  ⨯ Failed to start server
+2026-01-03 19:55:49: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:49:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:49:     at new Promise (<anonymous>) {
+2026-01-03 19:55:49:   code: 'EADDRINUSE',
+2026-01-03 19:55:49:   errno: -98,
+2026-01-03 19:55:49:   syscall: 'listen',
+2026-01-03 19:55:49:   address: '::',
+2026-01-03 19:55:49:   port: 3000
+2026-01-03 19:55:49: }
+2026-01-03 19:55:50:  ⨯ Failed to start server
+2026-01-03 19:55:50: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:50:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:50:     at new Promise (<anonymous>) {
+2026-01-03 19:55:50:   code: 'EADDRINUSE',
+2026-01-03 19:55:50:   errno: -98,
+2026-01-03 19:55:50:   syscall: 'listen',
+2026-01-03 19:55:50:   address: '::',
+2026-01-03 19:55:50:   port: 3000
+2026-01-03 19:55:50: }
+2026-01-03 19:55:50:  ⨯ Failed to start server
+2026-01-03 19:55:50: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:50:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:50:     at new Promise (<anonymous>) {
+2026-01-03 19:55:50:   code: 'EADDRINUSE',
+2026-01-03 19:55:50:   errno: -98,
+2026-01-03 19:55:50:   syscall: 'listen',
+2026-01-03 19:55:50:   address: '::',
+2026-01-03 19:55:50:   port: 3000
+2026-01-03 19:55:50: }
+2026-01-03 19:55:50:  ⨯ Failed to start server
+2026-01-03 19:55:50: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:50:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:50:     at new Promise (<anonymous>) {
+2026-01-03 19:55:50:   code: 'EADDRINUSE',
+2026-01-03 19:55:50:   errno: -98,
+2026-01-03 19:55:50:   syscall: 'listen',
+2026-01-03 19:55:50:   address: '::',
+2026-01-03 19:55:50:   port: 3000
+2026-01-03 19:55:50: }
+2026-01-03 19:55:51:  ⨯ Failed to start server
+2026-01-03 19:55:51: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:51:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:51:     at new Promise (<anonymous>) {
+2026-01-03 19:55:51:   code: 'EADDRINUSE',
+2026-01-03 19:55:51:   errno: -98,
+2026-01-03 19:55:51:   syscall: 'listen',
+2026-01-03 19:55:51:   address: '::',
+2026-01-03 19:55:51:   port: 3000
+2026-01-03 19:55:51: }
+2026-01-03 19:55:51:  ⨯ Failed to start server
+2026-01-03 19:55:51: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:51:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:51:     at new Promise (<anonymous>) {
+2026-01-03 19:55:51:   code: 'EADDRINUSE',
+2026-01-03 19:55:51:   errno: -98,
+2026-01-03 19:55:51:   syscall: 'listen',
+2026-01-03 19:55:51:   address: '::',
+2026-01-03 19:55:51:   port: 3000
+2026-01-03 19:55:51: }
+2026-01-03 19:55:51:  ⨯ Failed to start server
+2026-01-03 19:55:51: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:51:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:51:     at new Promise (<anonymous>) {
+2026-01-03 19:55:51:   code: 'EADDRINUSE',
+2026-01-03 19:55:51:   errno: -98,
+2026-01-03 19:55:51:   syscall: 'listen',
+2026-01-03 19:55:51:   address: '::',
+2026-01-03 19:55:51:   port: 3000
+2026-01-03 19:55:51: }
+2026-01-03 19:55:52:  ⨯ Failed to start server
+2026-01-03 19:55:52: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:52:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:52:     at new Promise (<anonymous>) {
+2026-01-03 19:55:52:   code: 'EADDRINUSE',
+2026-01-03 19:55:52:   errno: -98,
+2026-01-03 19:55:52:   syscall: 'listen',
+2026-01-03 19:55:52:   address: '::',
+2026-01-03 19:55:52:   port: 3000
+2026-01-03 19:55:52: }
+2026-01-03 19:55:52:  ⨯ Failed to start server
+2026-01-03 19:55:52: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:52:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:52:     at new Promise (<anonymous>) {
+2026-01-03 19:55:52:   code: 'EADDRINUSE',
+2026-01-03 19:55:52:   errno: -98,
+2026-01-03 19:55:52:   syscall: 'listen',
+2026-01-03 19:55:52:   address: '::',
+2026-01-03 19:55:52:   port: 3000
+2026-01-03 19:55:52: }
+2026-01-03 19:55:53:  ⨯ Failed to start server
+2026-01-03 19:55:53: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:53:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:53:     at new Promise (<anonymous>) {
+2026-01-03 19:55:53:   code: 'EADDRINUSE',
+2026-01-03 19:55:53:   errno: -98,
+2026-01-03 19:55:53:   syscall: 'listen',
+2026-01-03 19:55:53:   address: '::',
+2026-01-03 19:55:53:   port: 3000
+2026-01-03 19:55:53: }
+2026-01-03 19:55:53:  ⨯ Failed to start server
+2026-01-03 19:55:53: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:53:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:53:     at new Promise (<anonymous>) {
+2026-01-03 19:55:53:   code: 'EADDRINUSE',
+2026-01-03 19:55:53:   errno: -98,
+2026-01-03 19:55:53:   syscall: 'listen',
+2026-01-03 19:55:53:   address: '::',
+2026-01-03 19:55:53:   port: 3000
+2026-01-03 19:55:53: }
+2026-01-03 19:55:54:  ⨯ Failed to start server
+2026-01-03 19:55:54: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:54:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:54:     at new Promise (<anonymous>) {
+2026-01-03 19:55:54:   code: 'EADDRINUSE',
+2026-01-03 19:55:54:   errno: -98,
+2026-01-03 19:55:54:   syscall: 'listen',
+2026-01-03 19:55:54:   address: '::',
+2026-01-03 19:55:54:   port: 3000
+2026-01-03 19:55:54: }
+2026-01-03 19:55:54:  ⨯ Failed to start server
+2026-01-03 19:55:54: Error: listen EADDRINUSE: address already in use :::3000
+2026-01-03 19:55:54:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3000)
+2026-01-03 19:55:54:     at new Promise (<anonymous>) {
+2026-01-03 19:55:54:   code: 'EADDRINUSE',
+2026-01-03 19:55:54:   errno: -98,
+2026-01-03 19:55:54:   syscall: 'listen',
+2026-01-03 19:55:54:   address: '::',
+2026-01-03 19:55:54:   port: 3000
+2026-01-03 19:55:54: }
+2026-01-03 20:02:20:  ⨯ Failed to start server
+2026-01-03 20:02:20: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:20:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:20:     at new Promise (<anonymous>) {
+2026-01-03 20:02:20:   code: 'EADDRINUSE',
+2026-01-03 20:02:20:   errno: -98,
+2026-01-03 20:02:20:   syscall: 'listen',
+2026-01-03 20:02:20:   address: '::',
+2026-01-03 20:02:20:   port: 3001
+2026-01-03 20:02:20: }
+2026-01-03 20:02:21:  ⨯ Failed to start server
+2026-01-03 20:02:21: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:21:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:21:     at new Promise (<anonymous>) {
+2026-01-03 20:02:21:   code: 'EADDRINUSE',
+2026-01-03 20:02:21:   errno: -98,
+2026-01-03 20:02:21:   syscall: 'listen',
+2026-01-03 20:02:21:   address: '::',
+2026-01-03 20:02:21:   port: 3001
+2026-01-03 20:02:21: }
+2026-01-03 20:02:21:  ⨯ Failed to start server
+2026-01-03 20:02:21: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:21:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:21:     at new Promise (<anonymous>) {
+2026-01-03 20:02:21:   code: 'EADDRINUSE',
+2026-01-03 20:02:21:   errno: -98,
+2026-01-03 20:02:21:   syscall: 'listen',
+2026-01-03 20:02:21:   address: '::',
+2026-01-03 20:02:21:   port: 3001
+2026-01-03 20:02:21: }
+2026-01-03 20:02:21:  ⨯ Failed to start server
+2026-01-03 20:02:21: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:21:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:21:     at new Promise (<anonymous>) {
+2026-01-03 20:02:21:   code: 'EADDRINUSE',
+2026-01-03 20:02:21:   errno: -98,
+2026-01-03 20:02:21:   syscall: 'listen',
+2026-01-03 20:02:21:   address: '::',
+2026-01-03 20:02:21:   port: 3001
+2026-01-03 20:02:21: }
+2026-01-03 20:02:22:  ⨯ Failed to start server
+2026-01-03 20:02:22: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:22:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:22:     at new Promise (<anonymous>) {
+2026-01-03 20:02:22:   code: 'EADDRINUSE',
+2026-01-03 20:02:22:   errno: -98,
+2026-01-03 20:02:22:   syscall: 'listen',
+2026-01-03 20:02:22:   address: '::',
+2026-01-03 20:02:22:   port: 3001
+2026-01-03 20:02:22: }
+2026-01-03 20:02:22:  ⨯ Failed to start server
+2026-01-03 20:02:22: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:22:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:22:     at new Promise (<anonymous>) {
+2026-01-03 20:02:22:   code: 'EADDRINUSE',
+2026-01-03 20:02:22:   errno: -98,
+2026-01-03 20:02:22:   syscall: 'listen',
+2026-01-03 20:02:22:   address: '::',
+2026-01-03 20:02:22:   port: 3001
+2026-01-03 20:02:22: }
+2026-01-03 20:02:23:  ⨯ Failed to start server
+2026-01-03 20:02:23: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:23:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:23:     at new Promise (<anonymous>) {
+2026-01-03 20:02:23:   code: 'EADDRINUSE',
+2026-01-03 20:02:23:   errno: -98,
+2026-01-03 20:02:23:   syscall: 'listen',
+2026-01-03 20:02:23:   address: '::',
+2026-01-03 20:02:23:   port: 3001
+2026-01-03 20:02:23: }
+2026-01-03 20:02:23:  ⨯ Failed to start server
+2026-01-03 20:02:23: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:23:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:23:     at new Promise (<anonymous>) {
+2026-01-03 20:02:23:   code: 'EADDRINUSE',
+2026-01-03 20:02:23:   errno: -98,
+2026-01-03 20:02:23:   syscall: 'listen',
+2026-01-03 20:02:23:   address: '::',
+2026-01-03 20:02:23:   port: 3001
+2026-01-03 20:02:23: }
+2026-01-03 20:02:23:  ⨯ Failed to start server
+2026-01-03 20:02:23: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:23:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:23:     at new Promise (<anonymous>) {
+2026-01-03 20:02:23:   code: 'EADDRINUSE',
+2026-01-03 20:02:23:   errno: -98,
+2026-01-03 20:02:23:   syscall: 'listen',
+2026-01-03 20:02:23:   address: '::',
+2026-01-03 20:02:23:   port: 3001
+2026-01-03 20:02:23: }
+2026-01-03 20:02:24:  ⨯ Failed to start server
+2026-01-03 20:02:24: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:24:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:24:     at new Promise (<anonymous>) {
+2026-01-03 20:02:24:   code: 'EADDRINUSE',
+2026-01-03 20:02:24:   errno: -98,
+2026-01-03 20:02:24:   syscall: 'listen',
+2026-01-03 20:02:24:   address: '::',
+2026-01-03 20:02:24:   port: 3001
+2026-01-03 20:02:24: }
+2026-01-03 20:02:24:  ⨯ Failed to start server
+2026-01-03 20:02:24: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:24:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:24:     at new Promise (<anonymous>) {
+2026-01-03 20:02:24:   code: 'EADDRINUSE',
+2026-01-03 20:02:24:   errno: -98,
+2026-01-03 20:02:24:   syscall: 'listen',
+2026-01-03 20:02:24:   address: '::',
+2026-01-03 20:02:24:   port: 3001
+2026-01-03 20:02:24: }
+2026-01-03 20:02:25:  ⨯ Failed to start server
+2026-01-03 20:02:25: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:25:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:25:     at new Promise (<anonymous>) {
+2026-01-03 20:02:25:   code: 'EADDRINUSE',
+2026-01-03 20:02:25:   errno: -98,
+2026-01-03 20:02:25:   syscall: 'listen',
+2026-01-03 20:02:25:   address: '::',
+2026-01-03 20:02:25:   port: 3001
+2026-01-03 20:02:25: }
+2026-01-03 20:02:25:  ⨯ Failed to start server
+2026-01-03 20:02:25: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:25:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:25:     at new Promise (<anonymous>) {
+2026-01-03 20:02:25:   code: 'EADDRINUSE',
+2026-01-03 20:02:25:   errno: -98,
+2026-01-03 20:02:25:   syscall: 'listen',
+2026-01-03 20:02:25:   address: '::',
+2026-01-03 20:02:25:   port: 3001
+2026-01-03 20:02:25: }
+2026-01-03 20:02:25:  ⨯ Failed to start server
+2026-01-03 20:02:25: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:25:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:25:     at new Promise (<anonymous>) {
+2026-01-03 20:02:25:   code: 'EADDRINUSE',
+2026-01-03 20:02:25:   errno: -98,
+2026-01-03 20:02:25:   syscall: 'listen',
+2026-01-03 20:02:25:   address: '::',
+2026-01-03 20:02:25:   port: 3001
+2026-01-03 20:02:25: }
+2026-01-03 20:02:26:  ⨯ Failed to start server
+2026-01-03 20:02:26: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:26:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:26:     at new Promise (<anonymous>) {
+2026-01-03 20:02:26:   code: 'EADDRINUSE',
+2026-01-03 20:02:26:   errno: -98,
+2026-01-03 20:02:26:   syscall: 'listen',
+2026-01-03 20:02:26:   address: '::',
+2026-01-03 20:02:26:   port: 3001
+2026-01-03 20:02:26: }
+2026-01-03 20:02:26:  ⨯ Failed to start server
+2026-01-03 20:02:26: Error: listen EADDRINUSE: address already in use :::3001
+2026-01-03 20:02:26:     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+2026-01-03 20:02:26:     at new Promise (<anonymous>) {
+2026-01-03 20:02:26:   code: 'EADDRINUSE',
+2026-01-03 20:02:26:   errno: -98,
+2026-01-03 20:02:26:   syscall: 'listen',
+2026-01-03 20:02:26:   address: '::',
+2026-01-03 20:02:26:   port: 3001
+2026-01-03 20:02:26: }
+2026-01-03 20:03:06: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:06: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:07: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:08: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:08: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:09: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:09: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:10: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:10: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:11: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:12: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:12: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:13: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:13: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:14: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:03:14: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:10: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:11: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:11: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:12: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:13: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:13: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:14: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:14: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:15: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:15: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:16: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:17: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:17: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:18: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:18: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:06:19: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:07: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:08: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:09: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:09: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:10: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:11: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:11: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:12: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:12: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:13: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:14: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:14: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:15: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:16: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:16: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:17: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2026-01-03 20:47:17: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]

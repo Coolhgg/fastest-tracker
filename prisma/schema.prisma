@@ -1,0 +1,524 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id                      String                @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email                   String                @unique @db.VarChar(255)
+  username                String                @unique @db.VarChar(50)
+  password_hash           String                @default("") @db.VarChar(255)
+  avatar_url              String?
+  bio                     String?
+  xp                      Int                   @default(0)
+  level                   Int                   @default(1)
+  streak_days             Int                   @default(0)
+  last_read_at            DateTime?             @db.Timestamptz(6)
+  default_source          String?               @db.VarChar(50)
+  notification_settings   Json                  @default("{\"push\": false, \"email\": true}")
+  privacy_settings        Json                  @default("{\"library_public\": false, \"activity_public\": false}")
+  safe_browsing_mode      String                @default("sfw") @db.VarChar(20)
+
+  safe_browsing_indicator String                @default("toggle") @db.VarChar(20)
+  subscription_tier       String                @default("free") @db.VarChar(20)
+    subscription_expires_at DateTime?             @db.Timestamptz(6)
+    feed_last_seen_at       DateTime?             @db.Timestamptz(6)
+    created_at              DateTime              @default(now()) @db.Timestamptz(6)
+  updated_at              DateTime              @default(now()) @updatedAt @db.Timestamptz(6)
+  chapters_read           Int                   @default(0)
+  longest_streak          Int                   @default(0)
+  notification_digest     String                @default("immediate") @db.VarChar(20) // immediate, short, hourly, daily
+  activities              Activity[]
+  followers               Follow[]              @relation("follower")
+  following               Follow[]              @relation("following")
+  import_jobs             ImportJob[]
+  library_entries         LibraryEntry[]
+  triggered_notifications Notification[]        @relation("actor")
+  notifications           Notification[]
+  achievements            UserAchievement[]
+  chapter_reads           UserChapterRead[]
+  chapter_reads_v2        UserChapterReadV2[]
+  digest_buffer           NotificationDigestBuffer[]
+  audit_logs              AuditLog[]
+
+  @@index([username])
+  @@index([xp(sort: Desc)])
+  @@map("users")
+}
+
+model AuditLog {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id    String?  @db.Uuid
+  event      String   @db.VarChar(100)
+  status     String   @db.VarChar(20) // success, failure
+  ip_address String?  @db.VarChar(45)
+  user_agent String?
+  metadata   Json?
+  created_at DateTime @default(now()) @db.Timestamptz(6)
+
+  user User? @relation(fields: [user_id], references: [id], onDelete: SetNull)
+
+  @@index([user_id, created_at(sort: Desc)])
+  @@index([event, created_at(sort: Desc)])
+  @@map("audit_logs")
+}
+
+model Series {
+  id                   String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  mangadex_id          String?           @unique @db.VarChar(255)
+  title                String            @db.VarChar(500)
+  alternative_titles   Json              @default("[]")
+  description          String?
+  cover_url            String?
+  best_cover_url       String?
+  type                 String            @db.VarChar(20)
+  status               String?           @db.VarChar(20)
+  genres               String[]          @db.VarChar(50)
+  content_rating       String?           @db.VarChar(20)
+  total_follows        Int               @default(0)
+  total_views          Int               @default(0)
+  average_rating       Decimal?          @db.Decimal(3, 2)
+  tags                 String[]          @db.VarChar(50)
+  themes               String[]          @db.VarChar(50)
+  format_tags          String[]          @db.VarChar(50)
+  demographic          String?           @db.VarChar(50)
+  original_language    String?           @db.VarChar(10)
+  translated_languages String[]          @db.VarChar(10)
+  year                 Int?
+  release_year         Int?
+  external_links       Json?
+  chapter_count        Int?
+  latest_chapter       Decimal?          @db.Decimal(10, 2)
+  last_chapter_at      DateTime?         @db.Timestamptz(6)
+  first_chapter_date   DateTime?         @db.Timestamptz(6)
+  last_chapter_date    DateTime?         @db.Timestamptz(6)
+  last_synced_at       DateTime?         @db.Timestamptz(6)
+  rating_count         Int?
+  rating_distribution  Json?
+  content_warnings     String[]          @db.VarChar(100)
+  created_at           DateTime          @default(now()) @db.Timestamptz(6)
+  updated_at           DateTime          @default(now()) @updatedAt @db.Timestamptz(6)
+  activities           Activity[]
+  chapters             Chapter[]
+  logical_chapters     LogicalChapter[]
+  library_entries      LibraryEntry[]
+  notifications        Notification[]
+  sources              SeriesSource[]
+  creators             SeriesCreator[]
+  relations            SeriesRelation[]  @relation("series_relations")
+  related_to           SeriesRelation[]  @relation("related_series")
+  stats                SeriesStats?
+  digest_buffer        NotificationDigestBuffer[]
+  feed_entries         FeedEntry[]
+
+  @@index([title])
+  @@index([status])
+  @@index([type])
+  @@index([total_follows(sort: Desc)])
+  @@map("series")
+}
+
+model SeriesSource {
+  id                   String           @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  series_id            String           @db.Uuid
+  source_name          String           @db.VarChar(50)
+  source_id            String           @db.VarChar(255)
+  source_url           String
+  source_title         String?          @db.VarChar(500)
+  source_chapter_count Int?
+  trust_score          Decimal          @default(5.0) @db.Decimal(3, 2)
+  last_checked_at      DateTime?        @db.Timestamptz(6)
+  last_success_at      DateTime?        @db.Timestamptz(6)
+  failure_count        Int              @default(0)
+  match_confidence     Int?
+  sync_priority        String           @default("COLD") @db.VarChar(10)
+  next_check_at        DateTime?        @default(now()) @db.Timestamptz(6)
+  cover_url            String?
+  cover_width          Int?
+  cover_height         Int?
+  cover_updated_at     DateTime?        @db.Timestamptz(6)
+  is_primary_cover     Boolean          @default(false)
+  created_at           DateTime         @default(now()) @db.Timestamptz(6)
+  chapters             Chapter[]
+  chapter_sources      ChapterSource[]
+  series               Series           @relation(fields: [series_id], references: [id], onDelete: Cascade)
+
+  @@unique([source_name, source_id])
+  @@index([series_id])
+  @@index([sync_priority, next_check_at])
+  @@map("series_sources")
+}
+
+// Legacy chapter model (source-coupled) - kept for backward compatibility
+model Chapter {
+  id                String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  series_id         String            @db.Uuid
+  series_source_id  String            @db.Uuid
+  chapter_number    Decimal           @db.Decimal(10, 2)
+  chapter_title     String?           @db.VarChar(500)
+  volume_number     Int?
+  chapter_url       String
+  is_available      Boolean           @default(true)
+  page_count        Int?
+  published_at      DateTime?         @db.Timestamptz(6)
+  discovered_at     DateTime          @default(now()) @db.Timestamptz(6)
+  scanlation_group  String?           @db.VarChar(255)
+  language          String?           @db.VarChar(10)
+  source_chapter_id String?           @db.VarChar(255)
+  activities        Activity[]
+  series            Series            @relation(fields: [series_id], references: [id], onDelete: Cascade)
+  source            SeriesSource      @relation(fields: [series_source_id], references: [id], onDelete: Cascade)
+  notifications     Notification[]
+  user_reads        UserChapterRead[]
+
+  @@unique([series_source_id, chapter_number])
+  @@index([series_id, chapter_number(sort: Desc)])
+  @@index([series_source_id, chapter_number(sort: Desc)])
+  @@index([series_id, published_at(sort: Desc)])
+  @@index([published_at(sort: Desc)])
+  @@index([series_id, discovered_at(sort: Desc)])
+  @@map("chapters")
+}
+
+// New logical chapter model (source-independent)
+// One row per chapter per series - sources attach via ChapterSource
+model LogicalChapter {
+  id             String              @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  series_id      String              @db.Uuid
+  chapter_number Decimal             @db.Decimal(10, 2)
+  volume_number  Int?
+  chapter_title  String?             @db.VarChar(500)
+  page_count     Int?
+  published_at   DateTime?           @db.Timestamptz(6)
+  first_seen_at  DateTime            @default(now()) @db.Timestamptz(6)
+  updated_at     DateTime            @default(now()) @updatedAt @db.Timestamptz(6)
+  series         Series              @relation(fields: [series_id], references: [id], onDelete: Cascade)
+  sources        ChapterSource[]
+  user_reads     UserChapterReadV2[]
+  notifications  Notification[]
+  activities     Activity[]
+  feed_entries   FeedEntry[]
+
+  // Deduplication: One chapter per series per chapter_number
+  @@unique([series_id, chapter_number])
+  @@index([series_id, chapter_number(sort: Desc)])
+  @@index([series_id, published_at(sort: Desc)])
+  @@index([first_seen_at(sort: Desc)])
+  // Cursor pagination indexes
+  @@index([published_at(sort: Desc), id(sort: Desc)])
+  @@index([first_seen_at(sort: Desc), id(sort: Desc)])
+  @@map("logical_chapters")
+}
+
+// Chapter availability from a specific source
+// Many-to-one relationship: multiple sources can provide the same logical chapter
+model ChapterSource {
+  id                  String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  chapter_id          String          @db.Uuid
+  series_source_id    String          @db.Uuid
+  source_chapter_id   String?         @db.VarChar(255)
+  chapter_url         String
+  chapter_title       String?         @db.VarChar(500)
+  is_available        Boolean         @default(true)
+  page_count          Int?
+  scanlation_group    String?         @db.VarChar(255)
+  language            String?         @db.VarChar(10)
+  source_published_at DateTime?       @db.Timestamptz(6)
+  discovered_at       DateTime        @default(now()) @db.Timestamptz(6)
+  last_checked_at     DateTime?       @db.Timestamptz(6)
+  chapter             LogicalChapter  @relation(fields: [chapter_id], references: [id], onDelete: Cascade)
+  series_source       SeriesSource    @relation(fields: [series_source_id], references: [id], onDelete: Cascade)
+  user_reads          UserChapterReadV2[]
+
+  // Deduplication: One entry per source per chapter
+  @@unique([series_source_id, chapter_id])
+  @@index([chapter_id])
+  @@index([series_source_id])
+  @@index([discovered_at(sort: Desc)])
+  @@index([chapter_id, is_available])
+  @@map("chapter_sources")
+}
+
+// Legacy user chapter read (per legacy Chapter)
+model UserChapterRead {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id     String   @db.Uuid
+  chapter_id  String   @db.Uuid
+  source_used String?  @db.VarChar(50)
+  read_at     DateTime @default(now()) @db.Timestamptz(6)
+  user        User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  chapter     Chapter  @relation(fields: [chapter_id], references: [id], onDelete: Cascade)
+
+  @@unique([user_id, chapter_id])
+  @@index([user_id, read_at(sort: Desc)])
+  @@index([chapter_id])
+  @@map("user_chapter_reads")
+}
+
+// New user chapter read (per LogicalChapter, NOT per source)
+// Read status is per chapter - source_used is informational only
+model UserChapterReadV2 {
+  id                   String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id              String          @db.Uuid
+  chapter_id           String          @db.Uuid
+  source_used_id       String?         @db.Uuid
+  source_name          String?         @db.VarChar(50)
+  read_at              DateTime        @default(now()) @db.Timestamptz(6)
+  pages_read           Int?
+  reading_time_seconds Int?
+  user                 User            @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  chapter              LogicalChapter  @relation(fields: [chapter_id], references: [id], onDelete: Cascade)
+  source_used          ChapterSource?  @relation(fields: [source_used_id], references: [id], onDelete: SetNull)
+
+  // Deduplication: User reads a chapter once (may re-read with different source)
+  @@unique([user_id, chapter_id])
+  @@index([user_id, read_at(sort: Desc)])
+  // Cursor pagination index
+  @@index([user_id, read_at(sort: Desc), id(sort: Desc)])
+  @@index([chapter_id])
+  @@map("user_chapter_reads_v2")
+}
+
+model LibraryEntry {
+  id                  String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id             String    @db.Uuid
+  series_id           String    @db.Uuid
+  status              String    @default("reading") @db.VarChar(20)
+  last_read_chapter   Decimal?  @db.Decimal(10, 2)
+  last_read_at        DateTime? @db.Timestamptz(6)
+  user_rating         Int?
+  preferred_source    String?   @db.VarChar(50)
+  notify_new_chapters Boolean   @default(true)
+  notification_mode   String    @default("default") @db.VarChar(20) // default, immediate, digest, muted
+  sync_priority       String    @default("WARM") @db.VarChar(10)
+  added_at            DateTime  @default(now()) @db.Timestamptz(6)
+  updated_at          DateTime  @default(now()) @updatedAt @db.Timestamptz(6)
+  series              Series    @relation(fields: [series_id], references: [id], onDelete: Cascade)
+  user                User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@unique([user_id, series_id])
+  @@index([user_id, status, updated_at(sort: Desc)])
+  @@index([series_id, status])
+  @@index([sync_priority, updated_at])
+  @@map("library_entries")
+}
+
+model Notification {
+  id                 String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id            String          @db.Uuid
+  type               String          @db.VarChar(50)
+  title              String          @db.VarChar(255)
+  message            String?
+  series_id          String?         @db.Uuid
+  chapter_id         String?         @db.Uuid
+  logical_chapter_id String?         @db.Uuid
+  actor_user_id      String?         @db.Uuid
+  metadata           Json?
+  priority           Int?            @default(2)
+  read_at            DateTime?       @db.Timestamptz(6)
+  created_at         DateTime        @default(now()) @db.Timestamptz(6)
+  actor              User?           @relation("actor", fields: [actor_user_id], references: [id])
+  chapter            Chapter?        @relation(fields: [chapter_id], references: [id], onDelete: Cascade)
+  logical_chapter    LogicalChapter? @relation(fields: [logical_chapter_id], references: [id], onDelete: Cascade)
+  series             Series?         @relation(fields: [series_id], references: [id], onDelete: Cascade)
+  user               User            @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@index([user_id, created_at(sort: Desc)])
+  @@index([user_id, read_at, created_at(sort: Desc)])
+  @@map("notifications")
+}
+
+model Achievement {
+  id                String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  code              String            @unique @db.VarChar(50)
+  name              String            @db.VarChar(100)
+  description       String?
+  icon_url          String?
+  xp_reward         Int
+  rarity            String            @default("common") @db.VarChar(20)
+  criteria          Json
+  created_at        DateTime          @default(now()) @db.Timestamptz(6)
+  user_achievements UserAchievement[]
+
+  @@map("achievements")
+}
+
+model UserAchievement {
+  id             String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id        String      @db.Uuid
+  achievement_id String      @db.Uuid
+  unlocked_at    DateTime    @default(now()) @db.Timestamptz(6)
+  achievement    Achievement @relation(fields: [achievement_id], references: [id], onDelete: Cascade)
+  user           User        @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@unique([user_id, achievement_id])
+  @@index([user_id, unlocked_at(sort: Desc)])
+  @@map("user_achievements")
+}
+
+model Follow {
+  id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  follower_id  String   @db.Uuid
+  following_id String   @db.Uuid
+  created_at   DateTime @default(now()) @db.Timestamptz(6)
+  follower     User     @relation("follower", fields: [follower_id], references: [id], onDelete: Cascade)
+  following    User     @relation("following", fields: [following_id], references: [id], onDelete: Cascade)
+
+  @@unique([follower_id, following_id])
+  @@index([follower_id])
+  @@index([following_id])
+  @@map("follows")
+}
+
+model Activity {
+  id                 String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id            String          @db.Uuid
+  type               String          @db.VarChar(50)
+  series_id          String?         @db.Uuid
+  chapter_id         String?         @db.Uuid
+  logical_chapter_id String?         @db.Uuid
+  achievement_id     String?         @db.Uuid
+  metadata           Json?
+  created_at         DateTime        @default(now()) @db.Timestamptz(6)
+  chapter            Chapter?        @relation(fields: [chapter_id], references: [id], onDelete: Cascade)
+  logical_chapter    LogicalChapter? @relation(fields: [logical_chapter_id], references: [id], onDelete: Cascade)
+  series             Series?         @relation(fields: [series_id], references: [id], onDelete: Cascade)
+  user               User            @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@index([user_id, created_at(sort: Desc)])
+  @@index([created_at(sort: Desc)])
+  @@map("activities")
+}
+
+model ImportJob {
+  id              String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id         String    @db.Uuid
+  source          String    @db.VarChar(50)
+  status          String    @default("pending") @db.VarChar(20)
+  total_items     Int?
+  processed_items Int       @default(0)
+  matched_items   Int       @default(0)
+  failed_items    Int       @default(0)
+  error_log       Json?
+  created_at      DateTime  @default(now()) @db.Timestamptz(6)
+  completed_at    DateTime? @db.Timestamptz(6)
+  user            User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+
+  @@index([user_id, created_at(sort: Desc)])
+  @@map("import_jobs")
+}
+
+model NotificationDigestBuffer {
+  id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id        String   @db.Uuid
+  series_id      String   @db.Uuid
+  chapter_number Decimal  @db.Decimal(10, 2)
+  source_names   String[] @db.VarChar(50)
+  created_at     DateTime @default(now()) @db.Timestamptz(6)
+  updated_at     DateTime @default(now()) @updatedAt @db.Timestamptz(6)
+  flushed_at     DateTime? @db.Timestamptz(6)
+
+  user           User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  series         Series   @relation(fields: [series_id], references: [id], onDelete: Cascade)
+
+  @@unique([user_id, series_id, chapter_number, flushed_at])
+  @@index([user_id, flushed_at])
+  @@index([created_at])
+  @@map("notification_digest_buffer")
+}
+
+model Creator {
+  id          String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name        String          @db.VarChar(255)
+  mangadex_id String?         @unique @db.VarChar(255)
+  biography   String?
+  image_url   String?
+  created_at  DateTime        @default(now()) @db.Timestamptz(6)
+  series      SeriesCreator[]
+
+  @@map("creators")
+}
+
+model SeriesCreator {
+  id         String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  series_id  String  @db.Uuid
+  creator_id String  @db.Uuid
+  role       String  @db.VarChar(50)
+  series     Series  @relation(fields: [series_id], references: [id], onDelete: Cascade)
+  creator    Creator @relation(fields: [creator_id], references: [id], onDelete: Cascade)
+
+  @@unique([series_id, creator_id, role])
+  @@index([series_id])
+  @@index([creator_id])
+  @@map("series_creators")
+}
+
+model SeriesRelation {
+  id            String @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  series_id     String @db.Uuid
+  related_id    String @db.Uuid
+  relation_type String @db.VarChar(50)
+  series        Series @relation("series_relations", fields: [series_id], references: [id], onDelete: Cascade)
+  related       Series @relation("related_series", fields: [related_id], references: [id], onDelete: Cascade)
+
+  @@unique([series_id, related_id])
+  @@index([series_id])
+  @@index([related_id])
+  @@map("series_relations")
+}
+
+model SeriesStats {
+  id                String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  series_id         String   @unique @db.Uuid
+  total_readers     Int      @default(0)
+  readers_reading   Int      @default(0)
+  readers_completed Int      @default(0)
+  readers_planning  Int      @default(0)
+  readers_dropped   Int      @default(0)
+  readers_on_hold   Int      @default(0)
+  total_ratings     Int      @default(0)
+  rating_1          Int      @default(0)
+  rating_2          Int      @default(0)
+  rating_3          Int      @default(0)
+  rating_4          Int      @default(0)
+  rating_5          Int      @default(0)
+  rating_6          Int      @default(0)
+  rating_7          Int      @default(0)
+  rating_8          Int      @default(0)
+  rating_9          Int      @default(0)
+  rating_10         Int      @default(0)
+  weekly_readers    Int      @default(0)
+  monthly_readers   Int      @default(0)
+  popularity_rank   Int?
+  trending_rank     Int?
+  updated_at        DateTime @default(now()) @updatedAt @db.Timestamptz(6)
+  series            Series   @relation(fields: [series_id], references: [id], onDelete: Cascade)
+
+  @@index([popularity_rank])
+  @@index([trending_rank])
+  @@map("series_stats")
+}
+
+model FeedEntry {
+  id                  String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  series_id           String          @db.Uuid
+  logical_chapter_id  String?         @db.Uuid
+  chapter_number      Decimal         @db.Decimal(10, 2)
+  sources             Json            @default("[]")
+  first_discovered_at DateTime        @default(now()) @db.Timestamptz(6)
+  last_updated_at     DateTime        @default(now()) @db.Timestamptz(6)
+  created_at          DateTime        @default(now()) @db.Timestamptz(6)
+  series              Series          @relation(fields: [series_id], references: [id], onDelete: Cascade)
+  logical_chapter     LogicalChapter? @relation(fields: [logical_chapter_id], references: [id], onDelete: Cascade)
+
+  @@unique([series_id, chapter_number])
+  @@index([series_id])
+  @@index([first_discovered_at(sort: Desc)])
+  @@index([logical_chapter_id])
+  @@map("feed_entries")
+}

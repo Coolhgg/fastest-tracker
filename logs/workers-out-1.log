@@ -1,0 +1,515 @@
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+2026-01-03 19:54:41: 
+2026-01-03 19:54:41: > app@0.1.0 worker
+2026-01-03 19:54:41: > tsx src/workers/index.ts
+2026-01-03 19:54:41: 
+2026-01-03 19:54:57: 
+2026-01-03 19:54:57: > app@0.1.0 worker
+2026-01-03 19:54:57: > tsx src/workers/index.ts
+2026-01-03 19:54:57: 
+2026-01-03 19:55:12: 
+2026-01-03 19:55:12: > app@0.1.0 worker
+2026-01-03 19:55:12: > tsx src/workers/index.ts
+2026-01-03 19:55:12: 
+2026-01-03 19:55:27: 
+2026-01-03 19:55:27: > app@0.1.0 worker
+2026-01-03 19:55:27: > tsx src/workers/index.ts
+2026-01-03 19:55:27: 
+2026-01-03 19:55:42: 
+2026-01-03 19:55:42: > app@0.1.0 worker
+2026-01-03 19:55:42: > tsx src/workers/index.ts
+2026-01-03 19:55:42: 
+2026-01-03 19:55:57: 
+2026-01-03 19:55:57: > app@0.1.0 worker
+2026-01-03 19:55:57: > tsx src/workers/index.ts
+2026-01-03 19:55:57: 
+2026-01-03 19:55:58: 
+2026-01-03 19:55:58: > app@0.1.0 worker
+2026-01-03 19:55:58: > tsx src/workers/index.ts
+2026-01-03 19:55:58: 
+2026-01-03 19:56:00: 
+2026-01-03 19:56:00: > app@0.1.0 worker
+2026-01-03 19:56:00: > tsx src/workers/index.ts
+2026-01-03 19:56:00: 
+2026-01-03 19:56:03: 
+2026-01-03 19:56:03: > app@0.1.0 worker
+2026-01-03 19:56:03: > tsx src/workers/index.ts
+2026-01-03 19:56:03: 
+2026-01-03 19:56:06: 
+2026-01-03 19:56:06: > app@0.1.0 worker
+2026-01-03 19:56:06: > tsx src/workers/index.ts
+2026-01-03 19:56:06: 
+2026-01-03 19:56:11: 
+2026-01-03 19:56:11: > app@0.1.0 worker
+2026-01-03 19:56:11: > tsx src/workers/index.ts
+2026-01-03 19:56:11: 
+2026-01-03 19:56:19: 
+2026-01-03 19:56:19: > app@0.1.0 worker
+2026-01-03 19:56:19: > tsx src/workers/index.ts
+2026-01-03 19:56:19: 
+2026-01-03 19:56:31: 
+2026-01-03 19:56:31: > app@0.1.0 worker
+2026-01-03 19:56:31: > tsx src/workers/index.ts
+2026-01-03 19:56:31: 
+2026-01-03 19:56:46: 
+2026-01-03 19:56:46: > app@0.1.0 worker
+2026-01-03 19:56:46: > tsx src/workers/index.ts
+2026-01-03 19:56:46: 
+2026-01-03 19:57:01: 
+2026-01-03 19:57:01: > app@0.1.0 worker
+2026-01-03 19:57:01: > tsx src/workers/index.ts
+2026-01-03 19:57:01: 
+2026-01-03 19:57:16: 
+2026-01-03 19:57:16: > app@0.1.0 worker
+2026-01-03 19:57:16: > tsx src/workers/index.ts
+2026-01-03 19:57:16: 
+2026-01-03 19:57:31: 
+2026-01-03 19:57:31: > app@0.1.0 worker
+2026-01-03 19:57:31: > tsx src/workers/index.ts
+2026-01-03 19:57:31: 
+2026-01-03 19:57:46: 
+2026-01-03 19:57:46: > app@0.1.0 worker
+2026-01-03 19:57:46: > tsx src/workers/index.ts
+2026-01-03 19:57:46: 
+2026-01-03 19:58:02: 
+2026-01-03 19:58:02: > app@0.1.0 worker
+2026-01-03 19:58:02: > tsx src/workers/index.ts
+2026-01-03 19:58:02: 
+2026-01-03 19:58:17: 
+2026-01-03 19:58:17: > app@0.1.0 worker
+2026-01-03 19:58:17: > tsx src/workers/index.ts
+2026-01-03 19:58:17: 
+2026-01-03 19:58:32: 
+2026-01-03 19:58:32: > app@0.1.0 worker
+2026-01-03 19:58:32: > tsx src/workers/index.ts
+2026-01-03 19:58:32: 
+2026-01-03 19:58:47: 
+2026-01-03 19:58:47: > app@0.1.0 worker
+2026-01-03 19:58:47: > tsx src/workers/index.ts
+2026-01-03 19:58:47: 
+2026-01-03 19:59:02: 
+2026-01-03 19:59:02: > app@0.1.0 worker
+2026-01-03 19:59:02: > tsx src/workers/index.ts
+2026-01-03 19:59:02: 
+2026-01-03 19:59:17: 
+2026-01-03 19:59:17: > app@0.1.0 worker
+2026-01-03 19:59:17: > tsx src/workers/index.ts
+2026-01-03 19:59:17: 
+2026-01-03 19:59:32: 
+2026-01-03 19:59:32: > app@0.1.0 worker
+2026-01-03 19:59:32: > tsx src/workers/index.ts
+2026-01-03 19:59:32: 
+2026-01-03 19:59:48: 
+2026-01-03 19:59:48: > app@0.1.0 worker
+2026-01-03 19:59:48: > tsx src/workers/index.ts
+2026-01-03 19:59:48: 
+2026-01-03 20:00:03: 
+2026-01-03 20:00:03: > app@0.1.0 worker
+2026-01-03 20:00:03: > tsx src/workers/index.ts
+2026-01-03 20:00:03: 
+2026-01-03 20:00:18: 
+2026-01-03 20:00:18: > app@0.1.0 worker
+2026-01-03 20:00:18: > tsx src/workers/index.ts
+2026-01-03 20:00:18: 
+2026-01-03 20:00:33: 
+2026-01-03 20:00:33: > app@0.1.0 worker
+2026-01-03 20:00:33: > tsx src/workers/index.ts
+2026-01-03 20:00:33: 
+2026-01-03 20:00:48: 
+2026-01-03 20:00:48: > app@0.1.0 worker
+2026-01-03 20:00:48: > tsx src/workers/index.ts
+2026-01-03 20:00:48: 
+2026-01-03 20:01:03: 
+2026-01-03 20:01:03: > app@0.1.0 worker
+2026-01-03 20:01:03: > tsx src/workers/index.ts
+2026-01-03 20:01:03: 
+2026-01-03 20:01:19: 
+2026-01-03 20:01:19: > app@0.1.0 worker
+2026-01-03 20:01:19: > tsx src/workers/index.ts
+2026-01-03 20:01:19: 
+2026-01-03 20:01:34: 
+2026-01-03 20:01:34: > app@0.1.0 worker
+2026-01-03 20:01:34: > tsx src/workers/index.ts
+2026-01-03 20:01:34: 
+2026-01-03 20:01:49: 
+2026-01-03 20:01:49: > app@0.1.0 worker
+2026-01-03 20:01:49: > tsx src/workers/index.ts
+2026-01-03 20:01:49: 
+2026-01-03 20:02:04: 
+2026-01-03 20:02:04: > app@0.1.0 worker
+2026-01-03 20:02:04: > tsx src/workers/index.ts
+2026-01-03 20:02:04: 
+2026-01-03 20:02:19: 
+2026-01-03 20:02:19: > app@0.1.0 worker
+2026-01-03 20:02:19: > tsx src/workers/index.ts
+2026-01-03 20:02:19: 
+2026-01-03 20:02:20: 
+2026-01-03 20:02:20: > app@0.1.0 worker
+2026-01-03 20:02:20: > tsx src/workers/index.ts
+2026-01-03 20:02:20: 
+2026-01-03 20:02:21: 
+2026-01-03 20:02:21: > app@0.1.0 worker
+2026-01-03 20:02:21: > tsx src/workers/index.ts
+2026-01-03 20:02:21: 
+2026-01-03 20:02:23: 
+2026-01-03 20:02:23: > app@0.1.0 worker
+2026-01-03 20:02:23: > tsx src/workers/index.ts
+2026-01-03 20:02:23: 
+2026-01-03 20:02:25: 
+2026-01-03 20:02:25: > app@0.1.0 worker
+2026-01-03 20:02:25: > tsx src/workers/index.ts
+2026-01-03 20:02:25: 
+2026-01-03 20:02:29: 
+2026-01-03 20:02:29: > app@0.1.0 worker
+2026-01-03 20:02:29: > tsx src/workers/index.ts
+2026-01-03 20:02:29: 
+2026-01-03 20:02:34: 
+2026-01-03 20:02:34: > app@0.1.0 worker
+2026-01-03 20:02:34: > tsx src/workers/index.ts
+2026-01-03 20:02:34: 
+2026-01-03 20:02:42: 
+2026-01-03 20:02:42: > app@0.1.0 worker
+2026-01-03 20:02:42: > tsx src/workers/index.ts
+2026-01-03 20:02:42: 
+2026-01-03 20:02:53: 
+2026-01-03 20:02:53: > app@0.1.0 worker
+2026-01-03 20:02:53: > npx tsx src/workers/index.ts
+2026-01-03 20:02:53: 
+2026-01-03 20:02:56: [Workers] Starting...
+2026-01-03 20:02:56: [Scheduler] Running master scheduler...
+2026-01-03 20:02:56: [Scheduler] Running Cover Refresh Scheduler...
+2026-01-03 20:02:56: [Workers] Started
+2026-01-03 20:02:56: [Workers] Active and listening for jobs
+2026-01-03 20:02:56: [Redis] Connection initialized
+2026-01-03 20:02:56: [Workers] Connected to Redis at redis://****:****@redis-12292.c98.us-east-1-4.ec2.cloud.redislabs.com:12292
+2026-01-03 20:02:56: [Redis] Ready to accept commands
+2026-01-03 20:02:56: [Workers] Heartbeat updated
+2026-01-03 20:02:56: [Workers] Heartbeat sent
+2026-01-03 20:02:56: [Workers] Initial heartbeat sent
+2026-01-03 20:02:57: [Scheduler] No covers need refreshing
+2026-01-03 20:02:57: [Scheduler] No sources due for sync.
+2026-01-03 20:03:01: [Workers] Heartbeat updated
+2026-01-03 20:03:01: [Workers] Heartbeat sent
+2026-01-03 20:03:01: [Workers] Heartbeat sent
+2026-01-03 20:03:05: [Workers] Received SIGINT, shutting down gracefully...
+2026-01-03 20:03:05: [Redis] Disconnected
+2026-01-03 20:03:05: [Workers] Shutdown complete
+2026-01-03 20:03:05: 
+2026-01-03 20:03:05: > app@0.1.0 worker
+2026-01-03 20:03:05: > npx tsx src/workers/index.ts
+2026-01-03 20:03:05: 
+2026-01-03 20:03:07: [Workers] Starting...
+2026-01-03 20:03:07: [Scheduler] Running master scheduler...
+2026-01-03 20:03:07: [Scheduler] Running Cover Refresh Scheduler...
+2026-01-03 20:03:07: [Workers] Started
+2026-01-03 20:03:07: [Workers] Active and listening for jobs
+2026-01-03 20:03:07: [Redis] Connection initialized
+2026-01-03 20:03:07: [Workers] Connected to Redis at redis://****:****@redis-12292.c98.us-east-1-4.ec2.cloud.redislabs.com:12292
+2026-01-03 20:03:07: [Redis] Ready to accept commands
+2026-01-03 20:03:07: [Workers] Heartbeat updated
+2026-01-03 20:03:07: [Workers] Heartbeat sent
+2026-01-03 20:03:07: [Workers] Initial heartbeat sent
+2026-01-03 20:03:08: [Scheduler] No covers need refreshing
+2026-01-03 20:03:08: [Scheduler] No sources due for sync.
+2026-01-03 20:03:12: [Workers] Heartbeat updated
+2026-01-03 20:03:12: [Workers] Heartbeat sent
+2026-01-03 20:03:12: [Workers] Heartbeat sent
+2026-01-03 20:03:17: [Workers] Heartbeat updated
+2026-01-03 20:03:17: [Workers] Heartbeat sent
+2026-01-03 20:03:17: [Workers] Heartbeat sent
+2026-01-03 20:03:22: [Workers] Heartbeat updated
+2026-01-03 20:03:22: [Workers] Heartbeat sent
+2026-01-03 20:03:22: [Workers] Heartbeat sent
+2026-01-03 20:03:27: [Workers] Heartbeat updated
+2026-01-03 20:03:27: [Workers] Heartbeat sent
+2026-01-03 20:03:27: [Workers] Heartbeat sent
+2026-01-03 20:03:32: [Workers] Heartbeat updated
+2026-01-03 20:03:32: [Workers] Heartbeat sent
+2026-01-03 20:03:32: [Workers] Heartbeat sent
+2026-01-03 20:03:37: [Workers] Heartbeat updated
+2026-01-03 20:03:37: [Workers] Heartbeat sent
+2026-01-03 20:03:37: [Workers] Heartbeat sent
+2026-01-03 20:03:42: [Workers] Heartbeat updated
+2026-01-03 20:03:42: [Workers] Heartbeat sent
+2026-01-03 20:03:42: [Workers] Heartbeat sent
+2026-01-03 20:03:47: [Workers] Heartbeat updated
+2026-01-03 20:03:47: [Workers] Heartbeat sent
+2026-01-03 20:03:47: [Workers] Heartbeat sent
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+2026-01-03 19:45:50: 
+2026-01-03 19:45:50: > app@0.1.0 worker
+2026-01-03 19:45:50: > tsx src/workers/index.ts
+2026-01-03 19:45:50: 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+2026-01-03 20:06:10: 
+2026-01-03 20:06:10: > app@0.1.0 worker
+2026-01-03 20:06:10: > npx tsx src/workers/index.ts
+2026-01-03 20:06:10: 
+2026-01-03 20:06:12: [Workers] Starting...
+2026-01-03 20:06:12: [Scheduler] Running master scheduler...
+2026-01-03 20:06:12: [Scheduler] Running Cover Refresh Scheduler...
+2026-01-03 20:06:12: [Workers] Started
+2026-01-03 20:06:12: [Workers] Active and listening for jobs
+2026-01-03 20:06:12: [Redis] Connection initialized
+2026-01-03 20:06:12: [Workers] Connected to Redis at redis://****:****@redis-12292.c98.us-east-1-4.ec2.cloud.redislabs.com:12292
+2026-01-03 20:06:12: [Redis] Ready to accept commands
+2026-01-03 20:06:12: [Workers] Heartbeat updated
+2026-01-03 20:06:12: [Workers] Heartbeat sent
+2026-01-03 20:06:12: [Workers] Initial heartbeat sent
+2026-01-03 20:06:13: [Scheduler] No covers need refreshing
+2026-01-03 20:06:13: [Scheduler] No sources due for sync.
+2026-01-03 20:06:17: [Workers] Heartbeat updated
+2026-01-03 20:06:17: [Workers] Heartbeat sent
+2026-01-03 20:06:17: [Workers] Heartbeat sent
+2026-01-03 20:06:22: [Workers] Heartbeat updated
+2026-01-03 20:06:22: [Workers] Heartbeat sent
+2026-01-03 20:06:22: [Workers] Heartbeat sent
+2026-01-03 20:06:27: [Workers] Heartbeat updated
+2026-01-03 20:06:27: [Workers] Heartbeat sent
+2026-01-03 20:06:27: [Workers] Heartbeat sent
+2026-01-03 20:06:32: [Workers] Heartbeat updated
+2026-01-03 20:06:32: [Workers] Heartbeat sent
+2026-01-03 20:06:32: [Workers] Heartbeat sent
+2026-01-03 20:06:37: [Workers] Heartbeat updated
+2026-01-03 20:06:37: [Workers] Heartbeat sent
+2026-01-03 20:06:37: [Workers] Heartbeat sent
+2026-01-03 20:06:42: [Workers] Heartbeat updated
+2026-01-03 20:06:42: [Workers] Heartbeat sent
+2026-01-03 20:06:42: [Workers] Heartbeat sent
+2026-01-03 20:06:47: [Workers] Heartbeat updated
+2026-01-03 20:06:47: [Workers] Heartbeat sent
+2026-01-03 20:06:47: [Workers] Heartbeat sent
+2026-01-03 20:06:52: [Workers] Heartbeat updated
+2026-01-03 20:06:52: [Workers] Heartbeat sent
+2026-01-03 20:06:52: [Workers] Heartbeat sent
+2026-01-03 20:06:57: [Workers] Heartbeat updated
+2026-01-03 20:06:57: [Workers] Heartbeat sent
+2026-01-03 20:06:57: [Workers] Heartbeat sent
+2026-01-03 20:07:02: [Workers] Heartbeat updated
+2026-01-03 20:07:02: [Workers] Heartbeat sent
+2026-01-03 20:07:02: [Workers] Heartbeat sent
+2026-01-03 20:07:07: [Workers] Heartbeat updated
+2026-01-03 20:07:07: [Workers] Heartbeat sent
+2026-01-03 20:07:07: [Workers] Heartbeat sent
+2026-01-03 20:07:12: [Workers] Heartbeat updated
+2026-01-03 20:07:12: [Workers] Heartbeat sent
+2026-01-03 20:07:12: [Workers] Heartbeat sent
+2026-01-03 20:07:17: [Workers] Heartbeat updated
+2026-01-03 20:07:17: [Workers] Heartbeat sent
+2026-01-03 20:07:17: [Workers] Heartbeat sent
+2026-01-03 20:07:22: [Workers] Heartbeat updated
+2026-01-03 20:07:22: [Workers] Heartbeat sent
+2026-01-03 20:07:22: [Workers] Heartbeat sent
+2026-01-03 20:07:27: [Workers] Heartbeat updated
+2026-01-03 20:07:27: [Workers] Heartbeat sent
+2026-01-03 20:07:27: [Workers] Heartbeat sent
+2026-01-03 20:07:32: [Workers] Heartbeat updated
+2026-01-03 20:07:32: [Workers] Heartbeat sent
+2026-01-03 20:07:32: [Workers] Heartbeat sent
+2026-01-03 20:07:37: [Workers] Heartbeat updated
+2026-01-03 20:07:37: [Workers] Heartbeat sent
+2026-01-03 20:07:37: [Workers] Heartbeat sent
+2026-01-03 20:07:42: [Workers] Heartbeat updated
+2026-01-03 20:07:42: [Workers] Heartbeat sent
+2026-01-03 20:07:42: [Workers] Heartbeat sent
+2026-01-03 20:07:47: [Workers] Heartbeat updated
+2026-01-03 20:07:47: [Workers] Heartbeat sent
+2026-01-03 20:07:47: [Workers] Heartbeat sent
+2026-01-03 20:07:52: [Workers] Heartbeat updated
+2026-01-03 20:07:52: [Workers] Heartbeat sent
+2026-01-03 20:07:52: [Workers] Heartbeat sent
+2026-01-03 20:07:57: [Workers] Heartbeat updated
+2026-01-03 20:07:57: [Workers] Heartbeat sent
+2026-01-03 20:07:57: [Workers] Heartbeat sent
+2026-01-03 20:08:02: [Workers] Heartbeat updated
+2026-01-03 20:08:02: [Workers] Heartbeat sent
+2026-01-03 20:08:02: [Workers] Heartbeat sent
+2026-01-03 20:08:07: [Workers] Heartbeat updated
+2026-01-03 20:08:07: [Workers] Heartbeat sent
+2026-01-03 20:08:07: [Workers] Heartbeat sent
+2026-01-03 20:08:12: [Workers] Heartbeat updated
+2026-01-03 20:08:12: [Workers] Heartbeat sent
+2026-01-03 20:08:12: [Workers] Heartbeat sent
+2026-01-03 20:08:17: [Workers] Heartbeat updated
+2026-01-03 20:08:17: [Workers] Heartbeat sent
+2026-01-03 20:08:17: [Workers] Heartbeat sent
+2026-01-03 20:08:22: [Workers] Heartbeat updated
+2026-01-03 20:08:22: [Workers] Heartbeat sent
+2026-01-03 20:08:22: [Workers] Heartbeat sent
+2026-01-03 20:08:27: [Workers] Heartbeat updated
+2026-01-03 20:08:27: [Workers] Heartbeat sent
+2026-01-03 20:08:27: [Workers] Heartbeat sent
+2026-01-03 20:08:32: [Workers] Heartbeat updated
+2026-01-03 20:08:32: [Workers] Heartbeat sent
+2026-01-03 20:08:32: [Workers] Heartbeat sent
+2026-01-03 20:08:37: [Workers] Heartbeat updated
+2026-01-03 20:08:37: [Workers] Heartbeat sent
+2026-01-03 20:08:37: [Workers] Heartbeat sent
+2026-01-03 20:08:42: [Workers] Heartbeat updated
+2026-01-03 20:08:42: [Workers] Heartbeat sent
+2026-01-03 20:08:42: [Workers] Heartbeat sent
+2026-01-03 20:08:47: [Workers] Heartbeat updated
+2026-01-03 20:08:47: [Workers] Heartbeat sent
+2026-01-03 20:08:47: [Workers] Heartbeat sent
+2026-01-03 20:08:52: [Workers] Heartbeat updated
+2026-01-03 20:08:52: [Workers] Heartbeat sent
+2026-01-03 20:08:52: [Workers] Heartbeat sent
+2026-01-03 20:08:57: [Workers] Heartbeat updated
+2026-01-03 20:08:57: [Workers] Heartbeat sent
+2026-01-03 20:08:57: [Workers] Heartbeat sent
+2026-01-03 20:09:02: [Workers] Heartbeat updated
+2026-01-03 20:09:02: [Workers] Heartbeat sent
+2026-01-03 20:09:02: [Workers] Heartbeat sent
+2026-01-03 20:09:07: [Workers] Heartbeat updated
+2026-01-03 20:09:07: [Workers] Heartbeat sent
+2026-01-03 20:09:07: [Workers] Heartbeat sent
+2026-01-03 20:09:12: [Workers] Heartbeat updated
+2026-01-03 20:09:12: [Workers] Heartbeat sent
+2026-01-03 20:09:12: [Workers] Heartbeat sent
+2026-01-03 20:09:17: [Workers] Heartbeat updated
+2026-01-03 20:09:17: [Workers] Heartbeat sent
+2026-01-03 20:09:17: [Workers] Heartbeat sent
+2026-01-03 20:09:22: [Workers] Heartbeat updated
+2026-01-03 20:09:22: [Workers] Heartbeat sent
+2026-01-03 20:09:22: [Workers] Heartbeat sent
+2026-01-03 20:09:27: [Workers] Heartbeat updated
+2026-01-03 20:09:27: [Workers] Heartbeat sent
+2026-01-03 20:09:27: [Workers] Heartbeat sent
+2026-01-03 20:09:32: [Workers] Heartbeat updated
+2026-01-03 20:09:32: [Workers] Heartbeat sent
+2026-01-03 20:09:32: [Workers] Heartbeat sent
+2026-01-03 20:09:37: [Workers] Heartbeat updated
+2026-01-03 20:09:37: [Workers] Heartbeat sent
+2026-01-03 20:09:37: [Workers] Heartbeat sent
+2026-01-03 20:09:42: [Workers] Heartbeat updated
+2026-01-03 20:09:42: [Workers] Heartbeat sent
+2026-01-03 20:09:42: [Workers] Heartbeat sent
+2026-01-03 20:09:47: [Workers] Heartbeat updated
+2026-01-03 20:09:47: [Workers] Heartbeat sent
+2026-01-03 20:09:47: [Workers] Heartbeat sent
+2026-01-03 20:09:52: [Workers] Heartbeat updated
+2026-01-03 20:09:52: [Workers] Heartbeat sent
+2026-01-03 20:09:52: [Workers] Heartbeat sent
+2026-01-03 20:09:57: [Workers] Heartbeat updated
+2026-01-03 20:09:57: [Workers] Heartbeat sent
+2026-01-03 20:09:57: [Workers] Heartbeat sent
+2026-01-03 20:10:02: [Workers] Heartbeat updated
+2026-01-03 20:10:02: [Workers] Heartbeat sent
+2026-01-03 20:10:02: [Workers] Heartbeat sent
+2026-01-03 20:10:07: [Workers] Heartbeat updated
+2026-01-03 20:10:07: [Workers] Heartbeat sent
+2026-01-03 20:10:07: [Workers] Heartbeat sent
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+2026-01-03 20:47:06: 
+2026-01-03 20:47:06: > app@0.1.0 worker
+2026-01-03 20:47:06: > npx tsx src/workers/index.ts
+2026-01-03 20:47:06: 
+2026-01-03 20:47:11: [Workers] Starting...
+2026-01-03 20:47:11: [Scheduler] Running master scheduler...
+2026-01-03 20:47:11: [Scheduler] Running Cover Refresh Scheduler...
+2026-01-03 20:47:11: [Workers] Started
+2026-01-03 20:47:11: [Workers] Active and listening for jobs
+2026-01-03 20:47:12: [Redis] Connection initialized
+2026-01-03 20:47:12: [Workers] Connected to Redis at redis://****:****@redis-12292.c98.us-east-1-4.ec2.cloud.redislabs.com:12292
+2026-01-03 20:47:12: [Redis] Ready to accept commands
+2026-01-03 20:47:12: [Workers] Heartbeat updated
+2026-01-03 20:47:12: [Workers] Heartbeat sent
+2026-01-03 20:47:12: [Workers] Initial heartbeat sent
+2026-01-03 20:47:12: [Scheduler] No covers need refreshing
+2026-01-03 20:47:13: [Scheduler] No sources due for sync.
+2026-01-03 20:47:17: [Workers] Heartbeat updated
+2026-01-03 20:47:17: [Workers] Heartbeat sent
+2026-01-03 20:47:17: [Workers] Heartbeat sent
+2026-01-03 20:47:22: [Workers] Heartbeat updated
+2026-01-03 20:47:22: [Workers] Heartbeat sent
+2026-01-03 20:47:22: [Workers] Heartbeat sent
+2026-01-03 20:47:27: [Workers] Heartbeat updated
+2026-01-03 20:47:27: [Workers] Heartbeat sent
+2026-01-03 20:47:27: [Workers] Heartbeat sent
+2026-01-03 20:47:32: [Workers] Heartbeat updated
+2026-01-03 20:47:32: [Workers] Heartbeat sent
+2026-01-03 20:47:32: [Workers] Heartbeat sent
+2026-01-03 20:47:37: [Workers] Heartbeat updated
+2026-01-03 20:47:37: [Workers] Heartbeat sent
+2026-01-03 20:47:37: [Workers] Heartbeat sent
+2026-01-03 20:47:42: [Workers] Heartbeat updated
+2026-01-03 20:47:42: [Workers] Heartbeat sent
+2026-01-03 20:47:42: [Workers] Heartbeat sent
+2026-01-03 20:47:47: [Workers] Heartbeat updated
+2026-01-03 20:47:47: [Workers] Heartbeat sent
+2026-01-03 20:47:47: [Workers] Heartbeat sent
+2026-01-03 20:47:52: [Workers] Heartbeat updated
+2026-01-03 20:47:52: [Workers] Heartbeat sent
+2026-01-03 20:47:52: [Workers] Heartbeat sent
+2026-01-03 20:47:57: [Workers] Heartbeat updated
+2026-01-03 20:47:57: [Workers] Heartbeat sent
+2026-01-03 20:47:57: [Workers] Heartbeat sent
+2026-01-03 20:48:02: [Workers] Heartbeat updated
+2026-01-03 20:48:02: [Workers] Heartbeat sent
+2026-01-03 20:48:02: [Workers] Heartbeat sent
+2026-01-03 20:48:07: [Workers] Heartbeat updated
+2026-01-03 20:48:07: [Workers] Heartbeat sent
+2026-01-03 20:48:07: [Workers] Heartbeat sent
+2026-01-03 20:48:12: [Workers] Heartbeat updated
+2026-01-03 20:48:12: [Workers] Heartbeat sent
+2026-01-03 20:48:12: [Workers] Heartbeat sent
+2026-01-03 20:48:16: [CheckSource] Job search_b3JlIGRha2k= started processing
+2026-01-03 20:48:16: [CheckSource] Job search_b3JlIGRha2k= started processing
+2026-01-03 20:48:16: [CheckSource] Job search_b3JlIGRha2k= searching for "ore daki" (Original: "ore daki", Trigger: user_search, Intent: PARTIAL_TITLE)
+2026-01-03 20:48:17: [CheckSource] Enqueuing candidate "Zetsurin de Kedamonona Shin'yuu ga ore o Dekiai Shite Ita Nante Hajimete Shittaga!? ~Jotaika Shite Kara Mainichi Daki Tsubusa Retemasu~" with content_rating: erotica, genres: 2, tags: 1
+2026-01-03 20:48:17: [Workers] Heartbeat updated
+2026-01-03 20:48:17: [Workers] Heartbeat sent
+2026-01-03 20:48:17: [Workers] Heartbeat sent
+2026-01-03 20:48:17: [CheckSource] Enqueuing candidate "I've Been Hugged by a Fierce Incubus for 300 Years" with content_rating: erotica, genres: 3, tags: 2
+2026-01-03 20:48:17: [CheckSource] Job search_b3JlIGRha2k= completed: 2 candidates enqueued
+2026-01-03 20:48:17: [CheckSource] Job search_b3JlIGRha2k= completed
+2026-01-03 20:48:22: [Workers] Heartbeat updated
+2026-01-03 20:48:22: [Workers] Heartbeat sent
+2026-01-03 20:48:22: [Workers] Heartbeat sent
+2026-01-03 20:48:27: [Workers] Heartbeat updated
+2026-01-03 20:48:27: [Workers] Heartbeat sent
+2026-01-03 20:48:27: [Workers] Heartbeat sent
+2026-01-03 20:48:32: [Workers] Heartbeat updated
+2026-01-03 20:48:32: [Workers] Heartbeat sent
+2026-01-03 20:48:32: [Workers] Heartbeat sent
+2026-01-03 20:48:37: [Workers] Heartbeat updated
+2026-01-03 20:48:37: [Workers] Heartbeat sent
+2026-01-03 20:48:37: [Workers] Heartbeat sent
+2026-01-03 20:48:42: [Workers] Heartbeat updated
+2026-01-03 20:48:42: [Workers] Heartbeat sent
+2026-01-03 20:48:42: [Workers] Heartbeat sent
